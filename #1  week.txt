@@ -1,0 +1,2 @@
+This includes, successful retrieval of shortest path between two stations provided.
+As of now, only Station Codes are retrieved, but entire information can be easily fetched by parsing accordingly.
