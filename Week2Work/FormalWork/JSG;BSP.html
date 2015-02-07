@@ -1,0 +1,677 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+
+		<script language="JavaScript" type="text/JavaScript" src="script/rbsAjax.js"></script>
+		<script language="JavaScript" type="text/JavaScript" src="script/routeAjax.js"></script>
+		<script language="JavaScript" type="text/JavaScript" src="script/mapAjax.js"></script>
+		
+
+
+<link href="/ShortPath/theme/OnlineRbs.css" rel="stylesheet" type="text/css">
+
+
+	
+<script language="JavaScript" type="text/JavaScript" src="/ShortPath/images/myfreetemplates.js"></script>
+<script type="text/javascript" language="JavaScript" src="/ShortPath/script/rbsValidation.js">
+		</script>
+<script type="text/javascript" language="JavaScript">
+var timeCount=1;
+function changeColor(){
+var msg=document.getElementById("offline");
+if(msg!=null){
+if(timeCount==1){
+msg.style.color="teal";
+timeCount=0;
+}else{
+msg.style.color="white";
+timeCount=1
+}
+}
+}
+</script>
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="setInterval('changeColor()',1000);MM_preloadImages('/ShortPath/images/btn_home_dn.gif','/ShortPath/images/btn_find_dn.gif','/ShortPath/images/btn_view_dn.gif','/ShortPath/images/btn_forum_down.gif','/ShortPath/images/btn_login_dn.gif')">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td height="87">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tbody><tr>
+				<td width="342" rowspan="2" valign="top"><img src="/ShortPath/images/toplogo.jpg" width="342" height="87"></td>
+				<td width="34" rowspan="2" valign="top"><img src="/ShortPath/images/topmidspace.jpg" width="34" height="87"></td>
+				<td background="/ShortPath/images/topbg.jpg"><img src="/ShortPath/images/topbg.jpg" width="630" height="54"></td>
+			</tr>
+			<tr>
+				<td background="/ShortPath/images/topnavbg.jpg"><a href="/ShortPath/index.jsp"><img src="/ShortPath/images/btn_home.gif" name="btn_home" width="80" height="33" id="btn_home" onmouseover="MM_swapImage('btn_home','','images/btn_home_dn.gif',1)" onmouseout="MM_swapImgRestore()"></a><img src="/ShortPath/images/navspacer.jpg" width="1" height="33"><a href="/ShortPath/ShortPath.jsp"><img src="/ShortPath/images/btn_find_dn.gif" name="btn_find" width="98" height="33" id="btn_find" onmouseover="MM_swapImage('btn_find','','images/btn_find_dn.gif',1)" onmouseout="MM_swapImgRestore()"></a><img src="/ShortPath/images/navspacer.jpg" width="1" height="33">
+				<a href="/ShortPath/ZoneFront.jsp"><img src="/ShortPath/images/btn_view.gif" name="btn_view" width="95" height="33" id="btn_view" onmouseover="MM_swapImage('btn_view','','images/btn_view_dn.gif',1)" onmouseout="MM_swapImgRestore()"></a><img src="/ShortPath/images/navspacer.jpg" width="1" height="33">
+				<a href="/ShortPath/RbsLogin.jsp"><img src="/ShortPath/images/btn_login.gif" name="btn_login" width="77" height="33" id="btn_login" onmouseover="MM_swapImage('btn_login','','images/btn_login_dn.gif',1)" onmouseout="MM_swapImgRestore()"></a><img src="/ShortPath/images/navspacer.jpg" width="1" height="33">
+				<a href="/ShortPath/ForumIndex.jsp"><img src="/ShortPath/images/btn_forum.gif" name="btn_forum" width="95" height="33" id="btn_forum" onmouseover="MM_swapImage('btn_forum','','images/btn_forum_down.gif',1)" onmouseout="MM_swapImgRestore()"></a></td>
+			</tr>
+		</tbody></table>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top">
+		<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" background="/ShortPath/images/basebg2.jpg">
+			<tbody><tr>
+				<td height="9" colspan="2" background="/ShortPath/images/basebg2.jpg"><img src="/ShortPath/images/basebg2.jpg" width="1" height="9"></td>
+			</tr>
+			<tr>
+				<td valign="top" align="center" class="main">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tbody><tr>
+						<td height="29" width="100%" valign="top" background="/ShortPath/images/navbasebg.jpg">&nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/ShortPath.jsp" class="menuLink" title="Find the Shortest Path" style="">Shortest
+						Path</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/ViaShortPath.jsp" class="menuLink" title="Find the Shortest Path using via stations">Using Via
+						Junction</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/MultipleShortPath.jsp" class="menuLink" title="Find the Muliple Routes"> Multiple Routes</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/CommodityRationalRt.jsp" class="menuLink" title="Find the Muliple Routes"> Rational
+						Route</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/ShortPathDate.jsp" class="menuLink" title="Find the Route for specific date">Date Based Route</a>
+						
+						&nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/AdvancedViaPath.jsp" class="menuLink" title="Build the route - Junction by Junction"> Build Route</a>
+						&nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a class="menuLink" href="/ShortPath/PrsTrain.jsp" title="PRS Train route"> PRS
+						Train</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/UtsRoute.jsp" title="Find the UTS route" class="menuLink"> UTS Route</a> 
+						&nbsp;</td>
+					</tr>
+				</tbody></table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="main" align="center">
+				<table>
+
+					<tbody><tr>
+						<td>
+								
+
+
+								
+								<br>
+								<br>
+
+								<a href="Map.jsp"><img border="0" src="RbsImage/viewMap.gif" width="120" height="24"></a>
+
+								<br>
+								<center>
+								<div id="row0">
+											
+											
+											</div><div id="row1">
+											
+											
+											</div><div id="row2">
+											
+											
+											</div><div id="row3">
+											
+											
+											</div><div id="row4">
+											
+											
+											</div><div id="row5">
+											
+											
+											</div><div id="row6">
+											
+											
+											</div><div id="row7">
+											
+											
+											</div><div id="row8">
+											
+											
+											</div><div id="row9">
+											
+											
+											</div><div id="row10">
+											
+											
+											</div><div id="row11">
+											
+											
+											</div><div id="row12">
+											
+											
+											</div><div id="row13">
+											
+											
+											</div><div id="row14">
+											
+											
+											</div><div id="row15">
+											
+											
+											</div><table id="routetbl" border="1" bordercolor="teal" cellspacing="0" cellpadding="0">
+									<thead>
+										<tr>
+											
+											<th colspan="6" align="center">SHORTEST PATH - 1:
+											JSG - BSP</th>
+											
+
+										</tr>
+
+
+										<tr>
+											<td colspan="2" align="center"><b>STATION CODE</b></td>
+											<td width="282" align="center"><b>STATION NAME</b></td>
+											<td align="center" width="191">CUMULATIVE <b>DISTANCE</b></td>
+											<td align="center" width="191">INTER - DISTANCE</td>
+											<td align="center" width="185"><b>GAUGE TYPE</b></td>
+											
+										</tr>
+									</thead>
+									<tbody>
+										
+
+										<tr bgcolor="silver">
+
+											
+											<td width="29">
+											<a id="link0" href="javascript:getInterStation(0)"><img border="0" id="plus0" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">JSG
+											</td>
+											<td width="282" align="center"><b> <u>
+											 Jharsuguda Jn.
+											
+											</u>
+											 </b></td>
+											<td align="center" width="191">0.0
+											</td>
+											<td align="center" width="191">
+											0
+											</td>
+											<td align="center" width="185">
+											
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr bgcolor="silver">
+
+											
+											<td width="29">
+											<a id="link1" href="javascript:getInterStation(1)"><img border="0" id="plus1" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">IB
+											</td>
+											<td width="282" align="center"><b> <u>
+											 Ib
+											
+											</u>
+											 </b></td>
+											<td align="center" width="191">10.26
+											</td>
+											<td align="center" width="191">
+											10.26
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link2" href="javascript:removeInterStation(2)"><img border="0" id="plus2" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">BRJN
+											</td>
+											<td width="282" align="center"><b>  Brajarajnagar
+											 </b></td>
+											<td align="center" width="191">12.92
+											</td>
+											<td align="center" width="191">
+											2.66
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">LKCB</td><td align="center">lajkura cabin</td><td align="center">17.32</td><td align="center">4.4</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link3" href="javascript:getInterStation(3)"><img border="0" id="plus3" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">BPH
+											</td>
+											<td width="282" align="center"><b>  Belpahar
+											 </b></td>
+											<td align="center" width="191">21.99
+											</td>
+											<td align="center" width="191">
+											9.07
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link4" href="javascript:getInterStation(4)"><img border="0" id="plus4" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">HGR
+											</td>
+											<td width="282" align="center"><b>  HIMGIR
+											 </b></td>
+											<td align="center" width="191">35.31
+											</td>
+											<td align="center" width="191">
+											13.32
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link5" href="javascript:getInterStation(5)"><img border="0" id="plus5" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">DAO
+											</td>
+											<td width="282" align="center"><b>  Daghora
+											 </b></td>
+											<td align="center" width="191">42.59
+											</td>
+											<td align="center" width="191">
+											7.28
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link6" href="javascript:getInterStation(6)"><img border="0" id="plus6" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">JMG
+											</td>
+											<td width="282" align="center"><b>  Jamga
+											 </b></td>
+											<td align="center" width="191">54.64
+											</td>
+											<td align="center" width="191">
+											12.05
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link7" href="javascript:removeInterStation(7)"><img border="0" id="plus7" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">KRL
+											</td>
+											<td width="282" align="center"><b>  Kotarlia
+											 </b></td>
+											<td align="center" width="191">63.07
+											</td>
+											<td align="center" width="191">
+											8.43
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">RIG</td><td align="center">Raigarh</td><td align="center">73.22</td><td align="center">10.15</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link8" href="javascript:getInterStation(8)"><img border="0" id="plus8" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">KDTR
+											</td>
+											<td width="282" align="center"><b>  Kirodimalnagar
+											 </b></td>
+											<td align="center" width="191">80.17
+											</td>
+											<td align="center" width="191">
+											17.1
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link9" href="javascript:removeInterStation(9)"><img border="0" id="plus9" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">BEF
+											</td>
+											<td width="282" align="center"><b>  Bhupadeopur
+											 </b></td>
+											<td align="center" width="191">90.74
+											</td>
+											<td align="center" width="191">
+											10.57
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">ROB</td><td align="center">Robertson</td><td align="center">98.56</td><td align="center">7.82</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link10" href="javascript:removeInterStation(10)"><img border="0" id="plus10" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">KHS
+											</td>
+											<td width="282" align="center"><b>  Kharsia
+											 </b></td>
+											<td align="center" width="191">106.79
+											</td>
+											<td align="center" width="191">
+											16.05
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">JDI</td><td align="center">Jharradih</td><td align="center">112.69</td><td align="center">5.9</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">SKT</td><td align="center">Sakti</td><td align="center">122.42</td><td align="center">9.73</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">JDDA</td><td align="center">JETHA HALT</td><td align="center">131.22</td><td align="center">8.8</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link11" href="javascript:removeInterStation(11)"><img border="0" id="plus11" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">BUA
+											</td>
+											<td width="282" align="center"><b>  Baradwar
+											 </b></td>
+											<td align="center" width="191">137.26
+											</td>
+											<td align="center" width="191">
+											30.47
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">SGRD</td><td align="center">Saragaon Road  HALT</td><td align="center">143.73</td><td align="center">6.47</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link12" href="javascript:removeInterStation(12)"><img border="0" id="plus12" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">CPH
+											</td>
+											<td width="282" align="center"><b>  Champa Jn.
+											 </b></td>
+											<td align="center" width="191">152.77
+											</td>
+											<td align="center" width="191">
+											15.51
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">NIA</td><td align="center">JANJGIR NAILA</td><td align="center">163.55</td><td align="center">10.78</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">KPNA</td><td align="center">Kapan  HALT</td><td align="center">170.32</td><td align="center">6.77</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link13" href="javascript:removeInterStation(13)"><img border="0" id="plus13" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">AKT
+											</td>
+											<td width="282" align="center"><b>  Akaltara
+											 </b></td>
+											<td align="center" width="191">178.53
+											</td>
+											<td align="center" width="191">
+											25.76
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">LCA</td><td align="center">latia cabin</td><td align="center">180.43</td><td align="center">1.9</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">KTSH</td><td align="center">Kotmi Sonar Halt</td><td align="center">184.72</td><td align="center">4.29</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link14" href="javascript:getInterStation(14)"><img border="0" id="plus14" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">JRMG
+											</td>
+											<td width="282" align="center"><b>  Jairamnagar
+											 </b></td>
+											<td align="center" width="191">191.65
+											</td>
+											<td align="center" width="191">
+											13.12
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link15" href="javascript:getInterStation(15)"><img border="0" id="plus15" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">GTW
+											</td>
+											<td width="282" align="center"><b>  Gatora
+											 </b></td>
+											<td align="center" width="191">199.42
+											</td>
+											<td align="center" width="191">
+											7.77
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											
+											<td width="29">
+											
+											</td>
+
+											<td align="center" width="321">BSP
+											</td>
+											<td width="282" align="center"><b>  Bilaspur Jn.
+											 </b></td>
+											<td align="center" width="191">205.56
+											</td>
+											<td align="center" width="191">
+											6.14
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+										</tr>
+										
+										
+
+									</tbody>
+								</table>
+								</center>
+								<p><br>
+								</p>
+
+								<form action="/ShortPath/ApportionmentServlet" method="post" name="appForm"><input type="submit" name="showApp" value="SHOW APPORTIONMENT"> <input type="hidden" name="distance" value="coach">
+								<input type="hidden" name="currentRecord" value="0">  <input type="hidden" name="PageName" value="ShortPath">
+								</form>
+								
+								
+
+
+							
+						</td>
+						<td></td>
+					</tr>
+
+				</tbody></table>
+				</td>
+			</tr>
+		</tbody></table>
+		</td>
+	</tr>
+	
+	<tr>
+		<td align="center" class="main" valign="bottom"><script language="JavaScript" type="text/JavaScript">
+function reportIssue(){
+	document.forms['ReportForm'].submit();
+}
+</script>
+		<form name="ReportForm" action="/ShortPath/NewIssues.jsp" method="post"> <input type="hidden" name="PageName" value="ShortPath">
+		
+		<div class="issue"><font size="+1"><a class="rbsLink" href="javascript:reportIssue()">Report Software Issues</a></font></div>
+		</form>
+
+		</td>
+	</tr>
+	<tr>
+		<td height="50" align="center" background="/ShortPath/images/basebg1.jpg"><img border="0" src="/ShortPath/images/cris.gif" width="360" height="24"></td>
+	</tr>
+
+</tbody></table>
+
+
+
+</body></html>

@@ -1,0 +1,764 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+
+		<script language="JavaScript" type="text/JavaScript" src="script/rbsAjax.js"></script>
+		<script language="JavaScript" type="text/JavaScript" src="script/routeAjax.js"></script>
+		<script language="JavaScript" type="text/JavaScript" src="script/mapAjax.js"></script>
+		
+
+
+<link href="/ShortPath/theme/OnlineRbs.css" rel="stylesheet" type="text/css">
+
+
+	
+<script language="JavaScript" type="text/JavaScript" src="/ShortPath/images/myfreetemplates.js"></script>
+<script type="text/javascript" language="JavaScript" src="/ShortPath/script/rbsValidation.js">
+		</script>
+<script type="text/javascript" language="JavaScript">
+var timeCount=1;
+function changeColor(){
+var msg=document.getElementById("offline");
+if(msg!=null){
+if(timeCount==1){
+msg.style.color="teal";
+timeCount=0;
+}else{
+msg.style.color="white";
+timeCount=1
+}
+}
+}
+</script>
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="setInterval('changeColor()',1000);MM_preloadImages('/ShortPath/images/btn_home_dn.gif','/ShortPath/images/btn_find_dn.gif','/ShortPath/images/btn_view_dn.gif','/ShortPath/images/btn_forum_down.gif','/ShortPath/images/btn_login_dn.gif')">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td height="87">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tbody><tr>
+				<td width="342" rowspan="2" valign="top"><img src="/ShortPath/images/toplogo.jpg" width="342" height="87"></td>
+				<td width="34" rowspan="2" valign="top"><img src="/ShortPath/images/topmidspace.jpg" width="34" height="87"></td>
+				<td background="/ShortPath/images/topbg.jpg"><img src="/ShortPath/images/topbg.jpg" width="630" height="54"></td>
+			</tr>
+			<tr>
+				<td background="/ShortPath/images/topnavbg.jpg"><a href="/ShortPath/index.jsp"><img src="/ShortPath/images/btn_home.gif" name="btn_home" width="80" height="33" id="btn_home" onmouseover="MM_swapImage('btn_home','','images/btn_home_dn.gif',1)" onmouseout="MM_swapImgRestore()"></a><img src="/ShortPath/images/navspacer.jpg" width="1" height="33"><a href="/ShortPath/ShortPath.jsp"><img src="/ShortPath/images/btn_find_dn.gif" name="btn_find" width="98" height="33" id="btn_find" onmouseover="MM_swapImage('btn_find','','images/btn_find_dn.gif',1)" onmouseout="MM_swapImgRestore()"></a><img src="/ShortPath/images/navspacer.jpg" width="1" height="33">
+				<a href="/ShortPath/ZoneFront.jsp"><img src="/ShortPath/images/btn_view.gif" name="btn_view" width="95" height="33" id="btn_view" onmouseover="MM_swapImage('btn_view','','images/btn_view_dn.gif',1)" onmouseout="MM_swapImgRestore()"></a><img src="/ShortPath/images/navspacer.jpg" width="1" height="33">
+				<a href="/ShortPath/RbsLogin.jsp"><img src="/ShortPath/images/btn_login.gif" name="btn_login" width="77" height="33" id="btn_login" onmouseover="MM_swapImage('btn_login','','images/btn_login_dn.gif',1)" onmouseout="MM_swapImgRestore()"></a><img src="/ShortPath/images/navspacer.jpg" width="1" height="33">
+				<a href="/ShortPath/ForumIndex.jsp"><img src="/ShortPath/images/btn_forum.gif" name="btn_forum" width="95" height="33" id="btn_forum" onmouseover="MM_swapImage('btn_forum','','images/btn_forum_down.gif',1)" onmouseout="MM_swapImgRestore()"></a></td>
+			</tr>
+		</tbody></table>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top">
+		<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" background="/ShortPath/images/basebg2.jpg">
+			<tbody><tr>
+				<td height="9" colspan="2" background="/ShortPath/images/basebg2.jpg"><img src="/ShortPath/images/basebg2.jpg" width="1" height="9"></td>
+			</tr>
+			<tr>
+				<td valign="top" align="center" class="main">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tbody><tr>
+						<td height="29" width="100%" valign="top" background="/ShortPath/images/navbasebg.jpg">&nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/ShortPath.jsp" class="menuLink" title="Find the Shortest Path" style="">Shortest
+						Path</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/ViaShortPath.jsp" class="menuLink" title="Find the Shortest Path using via stations">Using Via
+						Junction</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/MultipleShortPath.jsp" class="menuLink" title="Find the Muliple Routes"> Multiple Routes</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/CommodityRationalRt.jsp" class="menuLink" title="Find the Muliple Routes"> Rational
+						Route</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/ShortPathDate.jsp" class="menuLink" title="Find the Route for specific date">Date Based Route</a>
+						
+						&nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/AdvancedViaPath.jsp" class="menuLink" title="Build the route - Junction by Junction"> Build Route</a>
+						&nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a class="menuLink" href="/ShortPath/PrsTrain.jsp" title="PRS Train route"> PRS
+						Train</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/UtsRoute.jsp" title="Find the UTS route" class="menuLink"> UTS Route</a> 
+						&nbsp;</td>
+					</tr>
+				</tbody></table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="main" align="center">
+				<table>
+
+					<tbody><tr>
+						<td>
+								
+
+
+								
+								<br>
+								<br>
+
+								<a href="Map.jsp"><img border="0" src="RbsImage/viewMap.gif" width="120" height="24"></a>
+
+								<br>
+								<center>
+								<div id="row0">
+											
+											
+											</div><div id="row1">
+											
+											
+											</div><div id="row2">
+											
+											
+											</div><div id="row3">
+											
+											
+											</div><div id="row4">
+											
+											
+											</div><div id="row5">
+											
+											
+											</div><div id="row6">
+											
+											
+											</div><div id="row7">
+											
+											
+											</div><div id="row8">
+											
+											
+											</div><div id="row9">
+											
+											
+											</div><div id="row10">
+											
+											
+											</div><div id="row11">
+											
+											
+											</div><div id="row12">
+											
+											
+											</div><div id="row13">
+											
+											
+											</div><div id="row14">
+											
+											
+											</div><div id="row15">
+											
+											
+											</div><div id="row16">
+											
+											
+											</div><div id="row17">
+											
+											
+											</div><div id="row18">
+											
+											
+											</div><table id="routetbl" border="1" bordercolor="teal" cellspacing="0" cellpadding="0">
+									<thead>
+										<tr>
+											
+											<th colspan="6" align="center">SHORTEST PATH - 1:
+											MS - BZA</th>
+											
+
+										</tr>
+
+
+										<tr>
+											<td colspan="2" align="center"><b>STATION CODE</b></td>
+											<td width="282" align="center"><b>STATION NAME</b></td>
+											<td align="center" width="191">CUMULATIVE <b>DISTANCE</b></td>
+											<td align="center" width="191">INTER - DISTANCE</td>
+											<td align="center" width="185"><b>GAUGE TYPE</b></td>
+											
+										</tr>
+									</thead>
+									<tbody>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link0" href="javascript:getInterStation(0)"><img border="0" id="plus0" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">MS
+											</td>
+											<td width="282" align="center"><b>  Chennai Egmore
+											 </b></td>
+											<td align="center" width="191">0.0
+											</td>
+											<td align="center" width="191">
+											0
+											</td>
+											<td align="center" width="185">
+											
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link1" href="javascript:getInterStation(1)"><img border="0" id="plus1" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">MPK
+											</td>
+											<td width="282" align="center"><b>  Chennai Park
+											 </b></td>
+											<td align="center" width="191">1.25
+											</td>
+											<td align="center" width="191">
+											1.25
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link2" href="javascript:getInterStation(2)"><img border="0" id="plus2" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">MAS
+											</td>
+											<td width="282" align="center"><b>  Chennai Central
+											 </b></td>
+											<td align="center" width="191">1.25
+											</td>
+											<td align="center" width="191">
+											0.0
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link3" href="javascript:getInterStation(3)"><img border="0" id="plus3" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">BBQ
+											</td>
+											<td width="282" align="center"><b>  Basin Bridge Jn.(Madras)
+											 </b></td>
+											<td align="center" width="191">3.47
+											</td>
+											<td align="center" width="191">
+											2.22
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link4" href="javascript:getInterStation(4)"><img border="0" id="plus4" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">KOK
+											</td>
+											<td width="282" align="center"><b>  Korukkupet
+											 </b></td>
+											<td align="center" width="191">5.43
+											</td>
+											<td align="center" width="191">
+											1.96
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link5" href="javascript:removeInterStation(5)"><img border="0" id="plus5" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">TNP
+											</td>
+											<td width="282" align="center"><b>  Tondiarpet
+											 </b></td>
+											<td align="center" width="191">6.58
+											</td>
+											<td align="center" width="191">
+											1.15
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">VOC</td><td align="center">VOC Nagar</td><td align="center">8.31</td><td align="center">1.73</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link6" href="javascript:removeInterStation(6)"><img border="0" id="plus6" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">TVT
+											</td>
+											<td width="282" align="center"><b>  Tiruvottiyur
+											 </b></td>
+											<td align="center" width="191">10.31
+											</td>
+											<td align="center" width="191">
+											3.73
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">WCN</td><td align="center">Wimco Nagar</td><td align="center">12.81</td><td align="center">2.5</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">KAVM</td><td align="center">Kathivakkam</td><td align="center">15.83</td><td align="center">3.02</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link7" href="javascript:getInterStation(7)"><img border="0" id="plus7" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">ENR
+											</td>
+											<td width="282" align="center"><b>  Ennore
+											 </b></td>
+											<td align="center" width="191">17.38
+											</td>
+											<td align="center" width="191">
+											7.07
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link8" href="javascript:getInterStation(8)"><img border="0" id="plus8" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">AIPP
+											</td>
+											<td width="282" align="center"><b>  Attipattu Pudu Nagar.H
+											 </b></td>
+											<td align="center" width="191">21.6
+											</td>
+											<td align="center" width="191">
+											4.22
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link9" href="javascript:getInterStation(9)"><img border="0" id="plus9" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">AIP
+											</td>
+											<td width="282" align="center"><b>  Attippattu
+											 </b></td>
+											<td align="center" width="191">23.38
+											</td>
+											<td align="center" width="191">
+											1.78
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link10" href="javascript:removeInterStation(10)"><img border="0" id="plus10" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">NPKM
+											</td>
+											<td width="282" align="center"><b>  Nandiyampakkam
+											 </b></td>
+											<td align="center" width="191">24.66
+											</td>
+											<td align="center" width="191">
+											1.28
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">MJR</td><td align="center">Minjur</td><td align="center">27.28</td><td align="center">2.62</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">APB</td><td align="center">Anuppambattu</td><td align="center">31.29</td><td align="center">4.01</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">PON</td><td align="center">Ponneri</td><td align="center">35.98</td><td align="center">4.69</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">KVP</td><td align="center">Kavaraippettai</td><td align="center">42.66</td><td align="center">6.68</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">GPD</td><td align="center">Gummidipundi</td><td align="center">48.58</td><td align="center">5.92</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link11" href="javascript:removeInterStation(11)"><img border="0" id="plus11" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">ELR
+											</td>
+											<td width="282" align="center"><b>  Elavur
+											 </b></td>
+											<td align="center" width="191">54.19
+											</td>
+											<td align="center" width="191">
+											29.53
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">AKM</td><td align="center">Arambakam</td><td align="center">63.77</td><td align="center">9.58</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">TADA</td><td align="center">Tada</td><td align="center">71.23</td><td align="center">7.46</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">AKAT</td><td align="center">Akkampet</td><td align="center">78.2</td><td align="center">6.97</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">SPE</td><td align="center">Sullurupeta</td><td align="center">83.69</td><td align="center">5.49</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">PEL</td><td align="center">Polireddipalem</td><td align="center">91.86</td><td align="center">8.17</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">DVR</td><td align="center">Doravarichattram</td><td align="center">99.34</td><td align="center">7.48</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">NYP</td><td align="center">Nayudupeta</td><td align="center">110.87</td><td align="center">11.53</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">PYA</td><td align="center">Pedapariya</td><td align="center">123.85</td><td align="center">12.98</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">ODUR</td><td align="center">Odur</td><td align="center">129.84</td><td align="center">5.99</td><td align="center">S</td></tr><tr bgcolor="silver">
+
+											
+											<td width="29">
+											<a id="link12" href="javascript:removeInterStation(12)"><img border="0" id="plus12" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">GDR
+											</td>
+											<td width="282" align="center"><b> <u>
+											 Gudur Jn.
+											
+											</u>
+											 </b></td>
+											<td align="center" width="191">138.54
+											</td>
+											<td align="center" width="191">
+											84.35
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">MBL</td><td align="center">Manubolu</td><td align="center">147.89</td><td align="center">9.35</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link13" href="javascript:getInterStation(13)"><img border="0" id="plus13" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">KMLP
+											</td>
+											<td width="282" align="center"><b>  Kommarapudi
+											 </b></td>
+											<td align="center" width="191">154.1
+											</td>
+											<td align="center" width="191">
+											15.56
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link14" href="javascript:removeInterStation(14)"><img border="0" id="plus14" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">VKT
+											</td>
+											<td width="282" align="center"><b>  Venkatachalam
+											 </b></td>
+											<td align="center" width="191">160.35
+											</td>
+											<td align="center" width="191">
+											6.25
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">VDE</td><td align="center">Vedayapalem</td><td align="center">169.62</td><td align="center">9.27</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">NLS</td><td align="center">Nellore-South Halt</td><td align="center">174.91</td><td align="center">5.29</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">NLR</td><td align="center">Nellore</td><td align="center">176.86</td><td align="center">1.95</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">PGU</td><td align="center">Padugupadu</td><td align="center">180.92</td><td align="center">4.06</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">KJJ</td><td align="center">Kodavaluru</td><td align="center">188.28</td><td align="center">7.36</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">TMC</td><td align="center">Talamanchi</td><td align="center">192.94</td><td align="center">4.66</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">AXR</td><td align="center">Alluru Road</td><td align="center">204.5</td><td align="center">11.56</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">BTTR</td><td align="center">Bitragunta</td><td align="center">210.75</td><td align="center">6.25</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">SVPM</td><td align="center">Sri Venkateswarapalem</td><td align="center">215.07</td><td align="center">4.32</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">KVZ</td><td align="center">Kavali</td><td align="center">227.3</td><td align="center">12.23</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">TTU</td><td align="center">Tettu</td><td align="center">241.63</td><td align="center">14.33</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">UPD</td><td align="center">Ulavapadu</td><td align="center">255.38</td><td align="center">13.75</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">SKM</td><td align="center">Singarayakonda</td><td align="center">264.95</td><td align="center">9.57</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">TNR</td><td align="center">Tanguturu</td><td align="center">274.57</td><td align="center">9.62</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link15" href="javascript:removeInterStation(15)"><img border="0" id="plus15" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">SDM
+											</td>
+											<td width="282" align="center"><b>  Surareddipalem
+											 </b></td>
+											<td align="center" width="191">282.75
+											</td>
+											<td align="center" width="191">
+											122.4
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">OGL</td><td align="center">Ongole</td><td align="center">292.9</td><td align="center">10.15</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">KRV</td><td align="center">Karavadi</td><td align="center">301.68</td><td align="center">8.78</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">ANB</td><td align="center">Ammanabrolu</td><td align="center">307.94</td><td align="center">6.26</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">RPRL</td><td align="center">Raparla Halt</td><td align="center">311.2</td><td align="center">3.26</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">UGD</td><td align="center">Uppugunduru</td><td align="center">315.54</td><td align="center">4.34</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">CJM</td><td align="center">Chinna Ganjam</td><td align="center">322.0</td><td align="center">6.46</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">KVDU</td><td align="center">Kadavakuduru</td><td align="center">326.33</td><td align="center">4.33</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">KPLL</td><td align="center">Kotta Pandillapalli Halt</td><td align="center">331.11</td><td align="center">4.78</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">VTM</td><td align="center">Vetapalem</td><td align="center">334.43</td><td align="center">3.32</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">JAQ</td><td align="center">Jandrapeta Halt</td><td align="center">339.11</td><td align="center">4.68</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link16" href="javascript:removeInterStation(16)"><img border="0" id="plus16" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">CLX
+											</td>
+											<td width="282" align="center"><b>  Chirala
+											 </b></td>
+											<td align="center" width="191">342.37
+											</td>
+											<td align="center" width="191">
+											59.62
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">IPPM</td><td align="center">Ipurupalem Halt</td><td align="center">346.45</td><td align="center">4.08</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">SPF</td><td align="center">Stuartpuram</td><td align="center">350.47</td><td align="center">4.02</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">BPP</td><td align="center">Bapatla</td><td align="center">357.36</td><td align="center">6.89</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">APL</td><td align="center">Appikatla</td><td align="center">366.13</td><td align="center">8.77</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">MCVM</td><td align="center">Machavaram Halt</td><td align="center">372.87</td><td align="center">6.74</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">NDO</td><td align="center">Nidubrolu</td><td align="center">377.82</td><td align="center">4.95</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">MDKU</td><td align="center">Modukuru Halt</td><td align="center">384.59</td><td align="center">6.77</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">TSR</td><td align="center">Tsunduru</td><td align="center">388.32</td><td align="center">3.73</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">VRU</td><td align="center">VALLIVERU</td><td align="center">392.8</td><td align="center">4.48</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link17" href="javascript:getInterStation(17)"><img border="0" id="plus17" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">TEL
+											</td>
+											<td width="282" align="center"><b>  Tenali Jn.
+											 </b></td>
+											<td align="center" width="191">399.75
+											</td>
+											<td align="center" width="191">
+											57.38
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link18" href="javascript:getInterStation(18)"><img border="0" id="plus18" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">KCC
+											</td>
+											<td width="282" align="center"><b>  Krishna Canal Jn
+											 </b></td>
+											<td align="center" width="191">426.21
+											</td>
+											<td align="center" width="191">
+											26.46
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											
+											<td width="29">
+											
+											</td>
+
+											<td align="center" width="321">BZA
+											</td>
+											<td width="282" align="center"><b>  Vijayawada Jn.
+											 </b></td>
+											<td align="center" width="191">431.26
+											</td>
+											<td align="center" width="191">
+											5.05
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+										</tr>
+										
+										
+
+									</tbody>
+								</table>
+								</center>
+								<p><br>
+								</p>
+
+								<form action="/ShortPath/ApportionmentServlet" method="post" name="appForm"><input type="submit" name="showApp" value="SHOW APPORTIONMENT"> <input type="hidden" name="distance" value="coach">
+								<input type="hidden" name="currentRecord" value="0">  <input type="hidden" name="PageName" value="ShortPath">
+								</form>
+								
+								
+
+
+							
+						</td>
+						<td></td>
+					</tr>
+
+				</tbody></table>
+				</td>
+			</tr>
+		</tbody></table>
+		</td>
+	</tr>
+	
+	<tr>
+		<td align="center" class="main" valign="bottom"><script language="JavaScript" type="text/JavaScript">
+function reportIssue(){
+	document.forms['ReportForm'].submit();
+}
+</script>
+		<form name="ReportForm" action="/ShortPath/NewIssues.jsp" method="post"> <input type="hidden" name="PageName" value="ShortPath">
+		
+		<div class="issue"><font size="+1"><a class="rbsLink" href="javascript:reportIssue()">Report Software Issues</a></font></div>
+		</form>
+
+		</td>
+	</tr>
+	<tr>
+		<td height="50" align="center" background="/ShortPath/images/basebg1.jpg"><img border="0" src="/ShortPath/images/cris.gif" width="360" height="24"></td>
+	</tr>
+
+</tbody></table>
+
+
+
+</body></html>

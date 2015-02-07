@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+
+		
+
+
+<link href="/ShortPath/theme/OnlineRbs.css" rel="stylesheet" type="text/css">
+
+
+
+		<meta name="Keywords" content="CRIS,RBS,RATES,Rates Branch System, Shortest Path, route, shortest distance">
+		<meta name="Description" content="Cris, Find shortest path">
+
+		<meta http-equiv="Content-Style-Type" content="text/css">
+
+		<title>Find shortest path</title>
+
+	
+<script language="JavaScript" type="text/JavaScript" src="/ShortPath/images/myfreetemplates.js"></script>
+<script type="text/javascript" language="JavaScript" src="/ShortPath/script/rbsValidation.js">
+		</script>
+<script type="text/javascript" language="JavaScript">
+var timeCount=1;
+function changeColor(){
+var msg=document.getElementById("offline");
+if(msg!=null){
+if(timeCount==1){
+msg.style.color="teal";
+timeCount=0;
+}else{
+msg.style.color="white";
+timeCount=1
+}
+}
+}
+</script>
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="setInterval('changeColor()',1000);loadForm();MM_preloadImages('/ShortPath/images/btn_home_dn.gif','/ShortPath/images/btn_find_dn.gif','/ShortPath/images/btn_view_dn.gif','/ShortPath/images/btn_forum_down.gif','/ShortPath/images/btn_login_dn.gif')">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td height="87">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tbody><tr>
+				<td width="342" rowspan="2" valign="top"><img src="/ShortPath/images/toplogo.jpg" width="342" height="87"></td>
+				<td width="34" rowspan="2" valign="top"><img src="/ShortPath/images/topmidspace.jpg" width="34" height="87"></td>
+				<td background="/ShortPath/images/topbg.jpg"><img src="/ShortPath/images/topbg.jpg" width="630" height="54"></td>
+			</tr>
+			<tr>
+				<td background="/ShortPath/images/topnavbg.jpg"><a href="/ShortPath/index.jsp"><img src="/ShortPath/images/btn_home.gif" name="btn_home" width="80" height="33" id="btn_home" onmouseover="MM_swapImage('btn_home','','images/btn_home_dn.gif',1)" onmouseout="MM_swapImgRestore()"></a><img src="/ShortPath/images/navspacer.jpg" width="1" height="33"><a href="/ShortPath/ShortPath.jsp"><img src="/ShortPath/images/btn_find_dn.gif" name="btn_find" width="98" height="33" id="btn_find" onmouseover="MM_swapImage('btn_find','','images/btn_find_dn.gif',1)" onmouseout="MM_swapImgRestore()"></a><img src="/ShortPath/images/navspacer.jpg" width="1" height="33">
+				<a href="/ShortPath/ZoneFront.jsp"><img src="/ShortPath/images/btn_view.gif" name="btn_view" width="95" height="33" id="btn_view" onmouseover="MM_swapImage('btn_view','','images/btn_view_dn.gif',1)" onmouseout="MM_swapImgRestore()"></a><img src="/ShortPath/images/navspacer.jpg" width="1" height="33">
+				<a href="/ShortPath/RbsLogin.jsp"><img src="/ShortPath/images/btn_login.gif" name="btn_login" width="77" height="33" id="btn_login" onmouseover="MM_swapImage('btn_login','','images/btn_login_dn.gif',1)" onmouseout="MM_swapImgRestore()"></a><img src="/ShortPath/images/navspacer.jpg" width="1" height="33">
+				<a href="/ShortPath/ForumIndex.jsp"><img src="/ShortPath/images/btn_forum.gif" name="btn_forum" width="99" height="33" id="btn_forum" onmouseover="MM_swapImage('btn_forum','','images/btn_forum_down.gif',1)" onmouseout="MM_swapImgRestore()"></a></td>
+			</tr>
+		</tbody></table>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top">
+		<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" background="/ShortPath/images/basebg2.jpg">
+			<tbody><tr>
+				<td height="9" colspan="2" background="/ShortPath/images/basebg2.jpg"><img src="/ShortPath/images/basebg2.jpg" width="1" height="9"></td>
+			</tr>
+			<tr>
+				<td valign="top" align="center" class="main">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tbody><tr>
+						<td height="29" width="100%" valign="top" background="/ShortPath/images/navbasebg.jpg">&nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/ShortPath.jsp" class="menuLink" title="Find the Shortest Path" style="">Shortest
+						Path</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/ViaShortPath.jsp" class="menuLink" title="Find the Shortest Path using via stations">Using Via
+						Junction</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/MultipleShortPath.jsp" class="menuLink" title="Find the Muliple Routes"> Multiple Routes</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/CommodityRationalRt.jsp" class="menuLink" title="Find the Muliple Routes"> Rational
+						Route</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/ShortPathDate.jsp" class="menuLink" title="Find the Route for specific date">Date Based Route</a>
+						
+						&nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/AdvancedViaPath.jsp" class="menuLink" title="Build the route - Junction by Junction"> Build Route</a>
+						&nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/UtsRoute.jsp" title="Find the UTS route" class="menuLink"> UTS Route</a> 
+						</td>
+					</tr>
+				</tbody></table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="main" align="center">
+				<table>
+					<tbody><tr>
+						<td height="360">
+								<center>
+								<form method="post" name="pathForm" action="/ShortPath/ShortPathServlet">
+
+								<table border="0" cellpadding="0" cellspacing="1">
+
+									<thead>
+										<tr>
+											<th colspan="4" align="center"><b>SHORTEST PATH</b></th>
+										</tr>
+
+									</thead>
+									<tbody>
+										<tr>
+											<td height="30" align="left" colspan="4">Please use
+											station code. If Station code is unknown, use the nearest
+											selection box.</td>
+										</tr>
+										<tr>
+											<td height="30" align="left" width="153">Source</td>
+											<th height="30" align="left" colspan="2"><input type="text" name="srcCode" size="5" maxlength="4" value=""></th>
+											<th height="30" align="left" width="221"></th>
+											<th align="left" rowspan="6" width="8"></th>
+										</tr>
+										<tr>
+											<td height="30" align="left" width="153">Destination</td>
+											<td height="30" align="left"><input type="text" name="destCode" size="5" maxlength="4" value=""></td>
+											<td height="30" align="left" colspan="2"><input type="image" name="findPath0" src="RbsImage/findButton.gif" onclick="return changeUpperCase();"></td>
+										</tr>
+										<tr>
+											<td height="30" align="left" width="153">GaugeType</td>
+											<td height="30" align="left"><select size="1" name="gaugeType">
+												<option value="S" selected="">Broad</option>
+												<option value="M">Meter</option>
+												<option value="N">Narrow</option>
+											</select></td>
+											<td height="30" align="left" colspan="2"></td>
+										</tr>
+										<tr>
+											<td height="30" align="left" width="153">Use
+											Transhipment</td>
+											<td height="30" align="left" width="90"><input type="checkbox" name="transhipmentFlag" value="false" onclick="return selectTranshipment();"></td>
+											<td height="30" align="left" width="98"></td>
+											<td height="30" width="221"></td>
+										</tr>
+										<tr>
+											<td height="30" align="left" width="153">Distance For</td>
+											<td height="30" colspan="3"><input type="radio" name="distance" value="coach" checked="">Coach<input type="radio" name="distance" value="goods">Goods<input type="radio" name="distance" value="engg">Route Km</td>
+										</tr>
+										<tr>
+											<td align="left" height="16" colspan="4"><a href="CommodityRationalRt.jsp">To find Goods Rational
+											Route, click here or Rational Route link</a></td>
+										</tr>
+									</tbody>
+								</table>
+
+								<input type="hidden" name="PageName" value="ShortPath"></form>
+								<p><b><br>
+								<font size="+1" color="maroon">
+								 Source - TQM is not in any route </font></b>
+								
+								</p>
+								</center>
+							
+						</td>
+						<td height="360" width="329" rowspan="2"><iframe height="398" name="helpFrame" src="/ShortPath/StationAjax.jsp" width="325"></iframe>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" valign="middle" bgcolor="white">Number of
+						Routes Generated: 5070359</td>
+					</tr>
+
+				</tbody></table>
+				</td>
+			</tr>
+		</tbody></table>
+		</td>
+	</tr>
+	
+	<tr>
+		<td align="center" class="main" valign="bottom"><script language="JavaScript" type="text/JavaScript">
+function reportIssue(){
+	document.forms['ReportForm'].submit();
+}
+</script>
+		<form name="ReportForm" action="/ShortPath/NewIssues.jsp" method="post"> <input type="hidden" name="PageName" value="ShortPath">
+		
+		<div class="issue"><font size="+1"><a class="rbsLink" href="javascript:reportIssue()">Report Software Issues</a></font></div>
+		</form>
+
+		</td>
+	</tr>
+	<tr>
+		<td align="center" background="/ShortPath/images/basebg1.jpg"><img border="0" src="/ShortPath/images/cris.gif" width="360" height="24"></td>
+	</tr>
+
+</tbody></table>
+
+
+
+</body></html>

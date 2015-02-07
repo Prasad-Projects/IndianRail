@@ -1,0 +1,494 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Style-Type" content="text/css">
+
+		<script language="JavaScript" type="text/JavaScript" src="script/rbsAjax.js"></script>
+		<script language="JavaScript" type="text/JavaScript" src="script/routeAjax.js"></script>
+		<script language="JavaScript" type="text/JavaScript" src="script/mapAjax.js"></script>
+		
+
+
+<link href="/ShortPath/theme/OnlineRbs.css" rel="stylesheet" type="text/css">
+
+
+	
+<script language="JavaScript" type="text/JavaScript" src="/ShortPath/images/myfreetemplates.js"></script>
+<script type="text/javascript" language="JavaScript" src="/ShortPath/script/rbsValidation.js">
+		</script>
+<script type="text/javascript" language="JavaScript">
+var timeCount=1;
+function changeColor(){
+var msg=document.getElementById("offline");
+if(msg!=null){
+if(timeCount==1){
+msg.style.color="teal";
+timeCount=0;
+}else{
+msg.style.color="white";
+timeCount=1
+}
+}
+}
+</script>
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="setInterval('changeColor()',1000);MM_preloadImages('/ShortPath/images/btn_home_dn.gif','/ShortPath/images/btn_find_dn.gif','/ShortPath/images/btn_view_dn.gif','/ShortPath/images/btn_forum_down.gif','/ShortPath/images/btn_login_dn.gif')">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td height="87">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tbody><tr>
+				<td width="342" rowspan="2" valign="top"><img src="/ShortPath/images/toplogo.jpg" width="342" height="87"></td>
+				<td width="34" rowspan="2" valign="top"><img src="/ShortPath/images/topmidspace.jpg" width="34" height="87"></td>
+				<td background="/ShortPath/images/topbg.jpg"><img src="/ShortPath/images/topbg.jpg" width="630" height="54"></td>
+			</tr>
+			<tr>
+				<td background="/ShortPath/images/topnavbg.jpg"><a href="/ShortPath/index.jsp"><img src="/ShortPath/images/btn_home.gif" name="btn_home" width="80" height="33" id="btn_home" onmouseover="MM_swapImage('btn_home','','images/btn_home_dn.gif',1)" onmouseout="MM_swapImgRestore()"></a><img src="/ShortPath/images/navspacer.jpg" width="1" height="33"><a href="/ShortPath/ShortPath.jsp"><img src="/ShortPath/images/btn_find_dn.gif" name="btn_find" width="98" height="33" id="btn_find" onmouseover="MM_swapImage('btn_find','','images/btn_find_dn.gif',1)" onmouseout="MM_swapImgRestore()"></a><img src="/ShortPath/images/navspacer.jpg" width="1" height="33">
+				<a href="/ShortPath/ZoneFront.jsp"><img src="/ShortPath/images/btn_view.gif" name="btn_view" width="95" height="33" id="btn_view" onmouseover="MM_swapImage('btn_view','','images/btn_view_dn.gif',1)" onmouseout="MM_swapImgRestore()"></a><img src="/ShortPath/images/navspacer.jpg" width="1" height="33">
+				<a href="/ShortPath/RbsLogin.jsp"><img src="/ShortPath/images/btn_login.gif" name="btn_login" width="77" height="33" id="btn_login" onmouseover="MM_swapImage('btn_login','','images/btn_login_dn.gif',1)" onmouseout="MM_swapImgRestore()"></a><img src="/ShortPath/images/navspacer.jpg" width="1" height="33">
+				<a href="/ShortPath/ForumIndex.jsp"><img src="/ShortPath/images/btn_forum.gif" name="btn_forum" width="95" height="33" id="btn_forum" onmouseover="MM_swapImage('btn_forum','','images/btn_forum_down.gif',1)" onmouseout="MM_swapImgRestore()"></a></td>
+			</tr>
+		</tbody></table>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top">
+		<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" background="/ShortPath/images/basebg2.jpg">
+			<tbody><tr>
+				<td height="9" colspan="2" background="/ShortPath/images/basebg2.jpg"><img src="/ShortPath/images/basebg2.jpg" width="1" height="9"></td>
+			</tr>
+			<tr>
+				<td valign="top" align="center" class="main">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tbody><tr>
+						<td height="29" width="100%" valign="top" background="/ShortPath/images/navbasebg.jpg">&nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/ShortPath.jsp" class="menuLink" title="Find the Shortest Path" style="">Shortest
+						Path</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/ViaShortPath.jsp" class="menuLink" title="Find the Shortest Path using via stations">Using Via
+						Junction</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/MultipleShortPath.jsp" class="menuLink" title="Find the Muliple Routes"> Multiple Routes</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/CommodityRationalRt.jsp" class="menuLink" title="Find the Muliple Routes"> Rational
+						Route</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/ShortPathDate.jsp" class="menuLink" title="Find the Route for specific date">Date Based Route</a>
+						
+						&nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/AdvancedViaPath.jsp" class="menuLink" title="Build the route - Junction by Junction"> Build Route</a>
+						&nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a class="menuLink" href="/ShortPath/PrsTrain.jsp" title="PRS Train route"> PRS
+						Train</a> &nbsp; <img border="0" src="/ShortPath/images/arrow.jpg" width="20" height="10"> <a href="/ShortPath/UtsRoute.jsp" title="Find the UTS route" class="menuLink"> UTS Route</a> 
+						&nbsp;</td>
+					</tr>
+				</tbody></table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="main" align="center">
+				<table>
+
+					<tbody><tr>
+						<td>
+								
+
+
+								
+								<br>
+								<br>
+
+								<a href="Map.jsp"><img border="0" src="RbsImage/viewMap.gif" width="120" height="24"></a>
+
+								<br>
+								<center>
+								<div id="row0">
+											
+											
+											</div><div id="row1">
+											
+											
+											</div><div id="row2">
+											
+											
+											</div><div id="row3">
+											
+											
+											</div><div id="row4">
+											
+											
+											</div><div id="row5">
+											
+											
+											</div><div id="row6">
+											
+											
+											</div><div id="row7">
+											
+											
+											</div><div id="row8">
+											
+											
+											</div><div id="row9">
+											
+											
+											</div><table id="routetbl" border="1" bordercolor="teal" cellspacing="0" cellpadding="0">
+									<thead>
+										<tr>
+											
+											<th colspan="6" align="center">SHORTEST PATH - 1:
+											PNBE - KIUL</th>
+											
+
+										</tr>
+
+
+										<tr>
+											<td colspan="2" align="center"><b>STATION CODE</b></td>
+											<td width="282" align="center"><b>STATION NAME</b></td>
+											<td align="center" width="191">CUMULATIVE <b>DISTANCE</b></td>
+											<td align="center" width="191">INTER - DISTANCE</td>
+											<td align="center" width="185"><b>GAUGE TYPE</b></td>
+											
+										</tr>
+									</thead>
+									<tbody>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link0" href="javascript:removeInterStation(0)"><img border="0" id="plus0" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">PNBE
+											</td>
+											<td width="282" align="center"><b>  PATNA Jn.
+											 </b></td>
+											<td align="center" width="191">0.0
+											</td>
+											<td align="center" width="191">
+											0
+											</td>
+											<td align="center" width="185">
+											
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">RJPB</td><td align="center">REJENDRANAGAR TERMINAL</td><td align="center">2.38</td><td align="center">2.38</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">EC14</td><td align="center">BLOCK HUT B</td><td align="center">3.01</td><td align="center">0.63</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">GZH</td><td align="center">Gulzarbagh</td><td align="center">6.97</td><td align="center">3.96</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link1" href="javascript:removeInterStation(1)"><img border="0" id="plus1" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">PNC
+											</td>
+											<td width="282" align="center"><b>  Patna Saheb
+											 </b></td>
+											<td align="center" width="191">9.91
+											</td>
+											<td align="center" width="191">
+											9.91
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">DDGJ</td><td align="center">Deedar Ganj</td><td align="center">13.42</td><td align="center">3.51</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">BKG</td><td align="center">Banka Ghat</td><td align="center">16.02</td><td align="center">2.6</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link2" href="javascript:removeInterStation(2)"><img border="0" id="plus2" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">FUT
+											</td>
+											<td width="282" align="center"><b>  FATUHA
+											 </b></td>
+											<td align="center" width="191">21.86
+											</td>
+											<td align="center" width="191">
+											11.95
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">BCYN</td><td align="center">budhdevchak Yadav Nagar</td><td align="center">23.85</td><td align="center">1.99</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">HDE</td><td align="center">Hardas Bigha</td><td align="center">27.34</td><td align="center">3.49</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">KOO</td><td align="center">Khusropur</td><td align="center">30.49</td><td align="center">3.15</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">MJM</td><td align="center">Manjhauli Gram Halt</td><td align="center">33.91</td><td align="center">3.42</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">KWO</td><td align="center">Karauta</td><td align="center">36.4</td><td align="center">2.49</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">SMBH</td><td align="center">Salimpur Bihar</td><td align="center">38.95</td><td align="center">2.55</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">TKBG</td><td align="center">Teka Bigha Halt</td><td align="center">40.89</td><td align="center">1.94</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">EC09</td><td align="center">CHAMPAPUR HALT</td><td align="center">42.76</td><td align="center">1.87</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link3" href="javascript:removeInterStation(3)"><img border="0" id="plus3" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">BKP
+											</td>
+											<td width="282" align="center"><b>  Bakhtiyarpur Jn.
+											 </b></td>
+											<td align="center" width="191">45.41
+											</td>
+											<td align="center" width="191">
+											23.55
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">JPML</td><td align="center">Jai Prakash Mahuli Halt</td><td align="center">52.02</td><td align="center">6.61</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">ATL</td><td align="center">Athmal Gola</td><td align="center">54.21</td><td align="center">2.19</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">ACU</td><td align="center">Achuara Halt</td><td align="center">57.65</td><td align="center">3.44</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link4" href="javascript:removeInterStation(4)"><img border="0" id="plus4" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">BARH
+											</td>
+											<td width="282" align="center"><b>  Barh.
+											 </b></td>
+											<td align="center" width="191">63.39
+											</td>
+											<td align="center" width="191">
+											17.98
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">SHT</td><td align="center">Sahari Halt</td><td align="center">66.15</td><td align="center">2.76</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">RLE</td><td align="center">Railey English Halt</td><td align="center">69.05</td><td align="center">2.9</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">LEB</td><td align="center">Lemuabad Halt</td><td align="center">70.8</td><td align="center">1.75</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">PHK</td><td align="center">Punarakh</td><td align="center">73.63</td><td align="center">2.83</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">MMKB</td><td align="center">MEKRA MEMERKHABAD</td><td align="center">76.25</td><td align="center">2.62</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">KNHP</td><td align="center">Kanhaipur</td><td align="center">78.62</td><td align="center">2.37</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">MOR</td><td align="center">MOR</td><td align="center">81.8</td><td align="center">3.18</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">BHAD</td><td align="center">Barhapur Halt</td><td align="center">84.22</td><td align="center">2.42</td><td align="center">S</td></tr><tr style="background-color: white;"><td></td><td align="center">SIVN</td><td align="center">SIVNAR HALT</td><td align="center">86.15</td><td align="center">1.93</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link5" href="javascript:removeInterStation(5)"><img border="0" id="plus5" src="/ShortPath/RbsImage/minus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">MKA
+											</td>
+											<td width="282" align="center"><b>  Mokama Jn.
+											 </b></td>
+											<td align="center" width="191">89.19
+											</td>
+											<td align="center" width="191">
+											25.8
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr style="background-color: white;"><td></td><td align="center">ANAH</td><td align="center">AUNTA HALT</td><td align="center">93.55</td><td align="center">4.36</td><td align="center">S</td></tr><tr>
+
+											
+											<td width="29">
+											<a id="link6" href="javascript:getInterStation(6)"><img border="0" id="plus6" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">TALL
+											</td>
+											<td width="282" align="center"><b>  Tall Jn.
+											 </b></td>
+											<td align="center" width="191">93.97
+											</td>
+											<td align="center" width="191">
+											4.78
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link7" href="javascript:getInterStation(7)"><img border="0" id="plus7" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">HTZ
+											</td>
+											<td width="282" align="center"><b>  Hathidah Jn.
+											 </b></td>
+											<td align="center" width="191">96.24
+											</td>
+											<td align="center" width="191">
+											2.27
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link8" href="javascript:getInterStation(8)"><img border="0" id="plus8" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">RDUM
+											</td>
+											<td width="282" align="center"><b>  Rampur Dumra
+											 </b></td>
+											<td align="center" width="191">100.98
+											</td>
+											<td align="center" width="191">
+											4.74
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr>
+
+											
+											<td width="29">
+											<a id="link9" href="javascript:getInterStation(9)"><img border="0" id="plus9" src="RbsImage/plus.gif" width="25" height="25"></a>
+											
+											</td>
+
+											<td align="center" width="321">LKR
+											</td>
+											<td width="282" align="center"><b>  Luckeesarai Jn.
+											 </b></td>
+											<td align="center" width="191">122.01
+											</td>
+											<td align="center" width="191">
+											21.03
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+											
+										</tr>
+										
+
+										<tr bgcolor="silver">
+
+											
+											
+											<td width="29">
+											
+											</td>
+
+											<td align="center" width="321">KIUL
+											</td>
+											<td width="282" align="center"><b> <u>
+											 Kiul Jn.
+											
+											</u>
+											 </b></td>
+											<td align="center" width="191">123.2
+											</td>
+											<td align="center" width="191">
+											1.19
+											
+											</td>
+											<td align="center" width="185">
+											 S 
+											</td>
+											
+											
+										</tr>
+										
+										
+
+									</tbody>
+								</table>
+								</center>
+								<p><br>
+								</p>
+
+								<form action="/ShortPath/ApportionmentServlet" method="post" name="appForm"><input type="submit" name="showApp" value="SHOW APPORTIONMENT"> <input type="hidden" name="distance" value="coach">
+								<input type="hidden" name="currentRecord" value="0">  <input type="hidden" name="PageName" value="ShortPath">
+								</form>
+								
+								
+
+
+							
+						</td>
+						<td></td>
+					</tr>
+
+				</tbody></table>
+				</td>
+			</tr>
+		</tbody></table>
+		</td>
+	</tr>
+	
+	<tr>
+		<td align="center" class="main" valign="bottom"><script language="JavaScript" type="text/JavaScript">
+function reportIssue(){
+	document.forms['ReportForm'].submit();
+}
+</script>
+		<form name="ReportForm" action="/ShortPath/NewIssues.jsp" method="post"> <input type="hidden" name="PageName" value="ShortPath">
+		
+		<div class="issue"><font size="+1"><a class="rbsLink" href="javascript:reportIssue()">Report Software Issues</a></font></div>
+		</form>
+
+		</td>
+	</tr>
+	<tr>
+		<td height="50" align="center" background="/ShortPath/images/basebg1.jpg"><img border="0" src="/ShortPath/images/cris.gif" width="360" height="24"></td>
+	</tr>
+
+</tbody></table>
+
+
+
+</body></html>
