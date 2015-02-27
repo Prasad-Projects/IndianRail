@@ -1,0 +1,1320 @@
+
+
+<HTML>
+<HEAD><head><title>Welcome to Indian Railway Passenger reservation Enquiry</title><link href="http://www.indianrail.gov.in/css/rail-style.css"rel="stylesheet" type="text/css" /><script type="text/javascript" src="http://www.indianrail.gov.in/js/menuContents.js"></script> <script type="text/javascript" src="http://www.indianrail.gov.in/js/subMenu.js"></script></head><body><table width="100%%" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" valign="top"><table width="970" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" valign="top"><table width="970" border="0" cellspacing="0" cellpadding="0"><tr><td><img src="http://www.indianrail.gov.in/images/blank.gif" alt="" width="1" height="4" /></td></tr><tr><td align="left" valign="top"><table width="100%%" border="0" cellspacing="0" cellpadding="0"><tr><td width="92" align="center" valign="middle"><img src="http://www.indianrail.gov.in/images/rail_logo_new_red.gif" vspace="2" alt="Rail Logo"/></td><td width="701" align="center" valign="center"><b><FONT color="#990000" size="4">INDIAN RAILWAYS PASSENGER RESERVATION ENQUIRY</b></FONT></td><td width="84" align="center" valign="middle"><a href="../index.html" onclick="resetButton()" >Home</a><br><a href="../hindex.html" target="_blank">Hindi Version</a></td><td width="76" align="right" valign="middle" ><img src="http://www.indianrail.gov.in/images/cris_red.gif" alt="Cris"  /></td></tr></table></td></tr><tr><td align="center" valign="top"><table width="970" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" valign="top" width="970"><table width="100%%" border="0" cellspacing="0" cellpadding="0"><tr><td width="206" align="left" valign="top"><table width="100%%" border="0" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top"><img src="http://www.indianrail.gov.in/images/blank.gif" alt="" width="1" height="23" /></td></tr><tr><td align="center" valign="top"><table width="100%"><tr><td bgcolor="#c01921"><font size="2" color="#ffffff"><b>Services</b></font></td></tr></table></td></tr><tr><td align="center" valign="top" class="menu-tile_rail"><table width="206" border="0" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" class="pad_self"><table width="100%%" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" valign="top"><img src="http://www.indianrail.gov.in/images/menu_top_red.gif" alt="" width="197" height="17" /></td></tr><tr><td align="center" valign="top"><table width="197" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" valign="top" class="menu-tile_rail_inside"><table width="178" border="0" cellspacing="0" cellpadding="0"><tr align="left" valign="top"><td class="link-main-menu"><a href="../MobileTicketing.html" onclick="resetButton()">Mobile Ticketing Services<img src="../images/new.gif" alt></a></td></tr><tr align="left" valign="top"><td class="link-main-menu"><a href="#" class="menuanchorclass someotherclass" rel="anylinkmenu2[over]" rev="lr">Availability at Major Stations</a></td></tr><tr align="left" valign="top"><td class="link-main-menu"><a href="../train_Schedule.html" onclick="resetButton()">Reserved Train Schedule</a></td></tr><td class="link-main-menu"><a href="http://www.enquiry.indianrail.gov.in" target="_blank">National Train Enquiry System</a></td></tr><tr align="left" valign="top"><td class="link-main-menu"><a href="../sms_Service.html" onclick="resetButton()">SMS Service</a></td></tr><tr align="left" valign="top"><td class="link-main-menu"><a href="../inet_curbkg_Enq.html" onclick="resetButton()">Current Booking Availability</a></td></tr><tr align="left" valign="top"><td class="link-main-menu"><a href="../dont_Know_Station_Code.html">Train Berth Availability </a></td></tr></table></td></tr></table></td></tr><tr><td align="center" valign="top"><img src="http://www.indianrail.gov.in/images/menu_bottom.gif" alt="" width="197" height="17" /></td></tr><tr><td align="center" valign="top"><table width="100%%"><tr><td bgcolor="c01921"><font size="2" color="ffffff"><b>Information</b></font></td></tr></table></td></tr><tr><td align="center" valign="top"><table width="197" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" valign="top"><img src="http://www.indianrail.gov.in/images/menu_top_red.gif" alt="" width="197" height="17" /></td></tr><tr><td align="center"valign="top"><table width="197" border="0" cellspacing="0" cellpadding="0"><tr><td align="center" valign="top" class="menu-tile_rail_inside"><table width="178" border="0" cellspacing="0" cellpadding="0"><tr align="left" valign="top"><td class="link-main-menu"><a href="http://www.indianrail.gov.in/CateringCharge.html" target="_blank">Catering Charges</a></td></tr><tr align="left" valign="top"><td class="link-main-menu"><a href="#" class="menuanchorclass someotherclass" rel="anylinkmenu5[over]" rev="lr">Train Type Information</a></td></tr><tr align="left" valign="top"><td class="link-main-menu"><a href="#" class="menuanchorclass someotherclass" rel="anylinkmenu3[over]" rev="lr">View Codes</a></td></tr><tr align="left" valign="top"><td class="link-main-menu"><a href="http://www.indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,1,304,366,537" target="_blank">Trains at a Glance </a></td></tr><tr align="left" valign="top"><td class="link-main-menu"><a href="#" class="menuanchorclass someotherclass" rel="anylinkmenu4[over]" rev="lr">Rules</a></td></tr><tr align="left" valign="top"> <td class="link-main-menu"><a href="../international_Tourist.html" onclick="resetButton()">International Tourists</a></td></tr><tr align="left" valign="top"><td class="link-main-menu"><a href="../tatkal_Scheme.html" onclick="resetButton()">Tatkal Scheme</a></td></tr><tr align="left" valign="top"><td class="link-main-menu"><a href="../other_Rly_Sites.html" onclick="resetButton()">Other Railway Websites</a></td></tr></table></td></tr></table></td></tr><tr><td align="center"valign="top"><img src="http://www.indianrail.gov.in/images/menu_bottom.gif" alt="" width="197" height="17" /></td></tr></table></td></tr></table></td></tr></table></td></tr><tr><td align="left" valign="top" width="206"><img src="http://www.indianrail.gov.in/images/main_menu_bottom.gif" alt="" width="206" height="9" /></td></tr></table></td><td width="764" align="left" valign="top"><table width="764" border="0" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top"><table width="764" border="0" cellspacing="0" cellpadding="0"><tr><td align="left" valign="top" ><table width="745" bgcolor="#c01921" border="0" cellspacing="0" cellpadding="0"><tr><td width="67"class="link-main-look" align="center" valign="top" ><a href="../pnr_Enq.html" >PNR Status</a></td><td width="188" valign="top" align="center" class="link-main-look" align="top"><a href="../between_Imp_Stations.html">Train Between Important Stations</a></td><td width="91" align="center" class="link-main-look"  valign="top"><a href="../seat_Avail.html">Seat Availability</a></td><td width="100" align="center" class="link-main-look" valign="top"><a href="../fare_Enq.html">Fare Enquiry</a></td><td width="160" align="center" class="link-main-look" valign="top"><a href="http://www.irctc.co.in"  target="_blank">Internet Reservation</a></td></tr></table></td></tr></table></td></tr><tr><td width="764"align="left" valign="top">
+
+<link href="http://www.indianrail.gov.in/cris_google.css" media="all" rel="Stylesheet" type="text/css" /><Title>Know the Station Code from Station Names</Title>
+<HEAD>
+<style type = "text/css">body {
+        background-image:url(http://www.indianrail.gov.in/images/main_bg.gif);
+		background-color:#FFFFFF;
+		margin: 0px;
+        padding: 0px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:11px;
+		font-weight:normal;
+		color:#000000;		
+		background-repeat:repeat-x;
+		scrollbar-darkshadow-color: #00ffff ;
+}
+
+.pad_self{
+padding-left:1px;
+padding-right:1px;
+}
+
+.text_rail_top{
+		background-image:url(http://www.indianrail.gov.in/images/main_text_top_tile.gif);	
+		height:8px;		
+		background-repeat:repeat-x;
+}
+
+.text_rail_bottom{
+		background-image:url(http://www.indianrail.gov.in/images/main_text_bottom_tile.gif);	
+		height:8px;		
+		background-repeat:repeat-x;
+}
+
+.text_rail_left{
+		background-image:url(http://www.indianrail.gov.in/images/main_text_left_tile.gif);	
+		width:7px;		
+		background-repeat:repeat-y;
+}
+
+.text_rail_right{
+		background-image:url(http://www.indianrail.gov.in/images/main_text_rgt_tile.gif);	
+		width:7px;		
+		background-repeat:repeat-y;
+}
+
+.text_back_color{
+background-color:#FFFFFF;
+}
+
+.main_body_text{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:normal;
+color:#352e17;
+text-align:justify;
+line-height:17px;
+padding-left:4px;
+padding-right:4px;
+}
+
+.main_text{
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+font-weight:normal;
+color:#352e17;
+text-align:justify;
+line-height:17px;
+padding-left:4px;
+padding-right:4px;
+}
+
+.inside_heading_text{
+font-family:Arial, Helvetica, sans-serif;
+font-size:17px;
+font-weight:bold;
+color:#352e17;
+padding-left:3px;
+
+}
+
+input {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	border: 1px solid #352e17;
+} 
+
+.btn_style {
+    background-image:url(http://www.indianrail.gov.in/images/btn_tile.gif);
+	height:23px;
+    font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	border: 1px solid #7b070e;
+} 
+
+.link-click{
+   font-family:Arial, Helvetica, sans-serif;	
+	color:#CD745A;	
+	text-shadow:#0066CC;
+	background-repeat: no-repeat;
+	font-size:11px;
+	font-weight:bold;	
+	text-align: left;
+	padding-top: 2px;
+	padding-bottom: 2px;	
+	text-decoration:none;	
+}
+.link-click  a{
+	color:#FF6600;
+	text-shadow:#0066CC;	
+	text-decoration:none;	
+}
+.link-click  a:hover{
+	color:#000000;
+	text-shadow:#0066CC;
+	text-decoration:none;		
+}
+
+.border{
+border:#7b070e dotted 1px;
+}
+
+.text_input {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	border: 1px solid #352e17;
+} 
+
+/* ######### CGI Table Class ######### */
+
+.Enq_heading{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+padding-top:3px;
+padding-bottom:3px;
+color:#a21921;
+font-weight:bold;
+}
+
+.heading_table_top{
+background-color:#a21921;
+padding-top:3px;
+padding-bottom:3px;
+font-family:Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+font-weight:bold;
+font-size:12px;
+text-align:center;
+}
+
+.heading_table{
+background-color:#c4948e;
+padding-top:3px;
+padding-bottom:3px;
+font-family:Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+font-weight:bold;
+font-size:12px;
+text-align:center;
+}
+
+.table_border{
+border:solid #993300 1px;
+}
+
+
+.table_border_both_center{
+border:solid #993300 1px;
+padding-top:3px;
+padding-bottom:3px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:center;
+}
+
+.table_border_both_left{
+border:solid #993300 1px;
+padding-top:3px;
+padding-bottom:3px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:left;
+}
+
+.table_border_left{
+border:solid #993300 1px;
+padding-top:3px;
+padding-bottom:3px;
+padding-left:3px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:left;
+}
+ 
+.table_border_both{
+border:solid #993300 1px;
+padding-top:3px;
+padding-bottom:3px;
+padding-left:3px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:center;
+}
+}
+
+</style>
+</HEAD>
+ <BODY>
+<TABLE width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="10" align="left" valign="top"><img src="http://www.indianrail.gov.in/main_text_left_top2.gif" alt="" width="8" height="8"></td> 
+<td width="100%" align="left" valign="top" class="text_rail_top"><img src="http://www.indianrail.gov.in/blank.gif" alt="" width="1" height="8"></td>
+<td width="10" align="right" valign="top"><img src="http://www.indianrail.gov.in/main_text_rgt_top2.gif"alt="" width="8" height="8" ></td>
+</tr>
+<tr>
+<td height="400" align="right" valign="top" class="text_rail_left"></td>
+<td width="100%" align="left" valign="top" class="text_back_color"><table border="0" cellPadding="0" cellSpacing="0" width="100%"><tr>
+<td align="left" valign="top"><table width="100%" border="0" cellspacing="2" cellpadding="0"><tr>      <td align="middle">        <FONT SIZE = "1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        Indian Railways Online Website: <b><a TITLE = "Passenger Reservation System - CONCERT" href="http://www.indianrail.gov.in/index.html" target="_blank">http://www.indianrail.gov.in</b></a>  designed and hosted by CRIS.</FONT>      </td></tr></table></td>
+</tr><tr>
+<td width="100%" align="left" align="top"><table width="100%" border="0" cellspacing="2" cellpadding="0">
+<tr>
+<td align="center" valign="top" class="inside_heading_text">Station Names with Station Codes</td>
+<td valign="top" width="160" rowspan="7">
+<tr><td align="center" valign="top">&nbsp;</td></tr>
+<tr>
+<td align="center" valign="top"><span class="Enq_heading">You Queried For</span></td>
+</tr>
+ <td valign="top"><table width="55%" border="0" align="center" cellpadding="3" cellspacing="1" class="table_border">
+<tr class="heading_table_top">
+<Td width="34%">Input String</Td>
+<Td width="33%">Search On</Td>
+<Td width="33%">Sort Type</Td>
+</TR>
+<TR>
+<td class="table_border_both">A</td>
+<td class="table_border_both">Start String</td>
+<td class="table_border_both">Station Name</td>
+</TR>
+</TABLE></td></tr>
+<TR><td>&nbsp;</td></tr>
+<TR><td>&nbsp;</td></tr>
+<TR><td align="center"><table width="45%" border="1" bordercolor="993300" align="center" cellpadding="3" cellspacing="1" class="table_border_both">
+<TR class="heading_table_top">
+<td width="50%">STATION NAME</td>
+<td width="50%">STATION CODE</td>
+</TR>
+<TR>
+<TD>A N DEV NAGAR  </TD>
+<TD>ACND</TD>
+</TR>
+<TR>
+<TD>ABADA          </TD>
+<TD>ABB </TD>
+</TR>
+<TR>
+<TD>ABHAIPUR       </TD>
+<TD>AHA </TD>
+</TR>
+<TR>
+<TD>ABOHAR         </TD>
+<TD>ABS </TD>
+</TR>
+<TR>
+<TD>ABU ROAD       </TD>
+<TD>ABR </TD>
+</TR>
+<TR>
+<TD>ACHALDA        </TD>
+<TD>ULD </TD>
+</TR>
+<TR>
+<TD>ACHALGANJ      </TD>
+<TD>ACH </TD>
+</TR>
+<TR>
+<TD>ACHALPUR       </TD>
+<TD>ELP </TD>
+</TR>
+<TR>
+<TD>ACHHNERA JN    </TD>
+<TD>AH  </TD>
+</TR>
+<TR>
+<TD>ADAS ROAD      </TD>
+<TD>ADD </TD>
+</TR>
+<TR>
+<TD>ADAVALI        </TD>
+<TD>ADVI</TD>
+</TR>
+<TR>
+<TD>ADESAR         </TD>
+<TD>AAR </TD>
+</TR>
+<TR>
+<TD>ADGAON BUZURG  </TD>
+<TD>ABZ </TD>
+</TR>
+<TR>
+<TD>ADHARTAL       </TD>
+<TD>ADTL</TD>
+</TR>
+<TR>
+<TD>ADHIKARI       </TD>
+<TD>ADQ </TD>
+</TR>
+<TR>
+<TD>ADI SAPTAGRAM  </TD>
+<TD>ADST</TD>
+</TR>
+<TR>
+<TD>ADILABAD       </TD>
+<TD>ADB </TD>
+</TR>
+<TR>
+<TD>ADINA          </TD>
+<TD>ADF </TD>
+</TR>
+<TR>
+<TD>ADIPUR         </TD>
+<TD>AI  </TD>
+</TR>
+<TR>
+<TD>ADITYAPUR      </TD>
+<TD>ADTP</TD>
+</TR>
+<TR>
+<TD>ADONI          </TD>
+<TD>AD  </TD>
+</TR>
+<TR>
+<TD>ADRA JN        </TD>
+<TD>ADRA</TD>
+</TR>
+<TR>
+<TD>ADRSH NGR DELHI</TD>
+<TD>ANDI</TD>
+</TR>
+<TR>
+<TD>ADUTURAI       </TD>
+<TD>ADT </TD>
+</TR>
+<TR>
+<TD>AGARTALA       </TD>
+<TD>AGTL</TD>
+</TR>
+<TR>
+<TD>AGAS           </TD>
+<TD>AGAS</TD>
+</TR>
+<TR>
+<TD>AGASOD         </TD>
+<TD>AGD </TD>
+</TR>
+<TR>
+<TD>AGHWANPUR      </TD>
+<TD>AWP </TD>
+</TR>
+<TR>
+<TD>AGOMONI        </TD>
+<TD>AGMN</TD>
+</TR>
+<TR>
+<TD>AGORI KHAS     </TD>
+<TD>AGY </TD>
+</TR>
+<TR>
+<TD>AGRA CANTT     </TD>
+<TD>AGC </TD>
+</TR>
+<TR>
+<TD>AGRA CITY      </TD>
+<TD>AGA </TD>
+</TR>
+<TR>
+<TD>AGRA FORT      </TD>
+<TD>AF  </TD>
+</TR>
+<TR>
+<TD>AHALYAPUR      </TD>
+<TD>AHLR</TD>
+</TR>
+<TR>
+<TD>AHERWADI       </TD>
+<TD>AHD </TD>
+</TR>
+<TR>
+<TD>AHIRAN         </TD>
+<TD>AHN </TD>
+</TR>
+<TR>
+<TD>AHMADGARH      </TD>
+<TD>AHH </TD>
+</TR>
+<TR>
+<TD>AHMADNAGAR     </TD>
+<TD>ANG </TD>
+</TR>
+<TR>
+<TD>AHMADPUR JN    </TD>
+<TD>AMP </TD>
+</TR>
+<TR>
+<TD>AHMEDABAD JN   </TD>
+<TD>ADI </TD>
+</TR>
+<TR>
+<TD>AHMEDABAD MG   </TD>
+<TD>ADIJ</TD>
+</TR>
+<TR>
+<TD>AHRAURA ROAD   </TD>
+<TD>ARW </TD>
+</TR>
+<TR>
+<TD>AISHBAGH       </TD>
+<TD>ASH </TD>
+</TR>
+<TR>
+<TD>AIT            </TD>
+<TD>AIT </TD>
+</TR>
+<TR>
+<TD>AITHAL         </TD>
+<TD>ATMO</TD>
+</TR>
+<TR>
+<TD>AJAIBPUR       </TD>
+<TD>AJR </TD>
+</TR>
+<TR>
+<TD>AJAKOLLU       </TD>
+<TD>AJK </TD>
+</TR>
+<TR>
+<TD>AJANTI         </TD>
+<TD>ANI </TD>
+</TR>
+<TR>
+<TD>AJARAKA        </TD>
+<TD>AIA </TD>
+</TR>
+<TR>
+<TD>AJGAIN         </TD>
+<TD>AJ  </TD>
+</TR>
+<TR>
+<TD>AJHAI          </TD>
+<TD>AJH </TD>
+</TR>
+<TR>
+<TD>AJIT           </TD>
+<TD>AJIT</TD>
+</TR>
+<TR>
+<TD>AJJAMPUR       </TD>
+<TD>AJP </TD>
+</TR>
+<TR>
+<TD>AJMER JN       </TD>
+<TD>AII </TD>
+</TR>
+<TR>
+<TD>AJNI           </TD>
+<TD>AJNI</TD>
+</TR>
+<TR>
+<TD>AJNOD          </TD>
+<TD>AJN </TD>
+</TR>
+<TR>
+<TD>AKALKOT ROAD   </TD>
+<TD>AKOR</TD>
+</TR>
+<TR>
+<TD>AKALTARA       </TD>
+<TD>AKT </TD>
+</TR>
+<TR>
+<TD>AKANAPET       </TD>
+<TD>AKE </TD>
+</TR>
+<TR>
+<TD>AKATHUMURI     </TD>
+<TD>AMY </TD>
+</TR>
+<TR>
+<TD>AKBARGANJ      </TD>
+<TD>AKJ </TD>
+</TR>
+<TR>
+<TD>AKBARNAGAR     </TD>
+<TD>AKN </TD>
+</TR>
+<TR>
+<TD>AKBARPUR       </TD>
+<TD>ABP </TD>
+</TR>
+<TR>
+<TD>AKIVIDU        </TD>
+<TD>AKVD</TD>
+</TR>
+<TR>
+<TD>AKKARAIPPATTI  </TD>
+<TD>API </TD>
+</TR>
+<TR>
+<TD>AKKURTI        </TD>
+<TD>AKY </TD>
+</TR>
+<TR>
+<TD>AKODIA         </TD>
+<TD>AKD </TD>
+</TR>
+<TR>
+<TD>AKOLA JN       </TD>
+<TD>AK  </TD>
+</TR>
+<TR>
+<TD>AKOLNER        </TD>
+<TD>AKR </TD>
+</TR>
+<TR>
+<TD>AKORA          </TD>
+<TD>AKW </TD>
+</TR>
+<TR>
+<TD>AKOT           </TD>
+<TD>AKOT</TD>
+</TR>
+<TR>
+<TD>AKSHAYWAT R NGR</TD>
+<TD>AYRN</TD>
+</TR>
+<TR>
+<TD>AKURDI         </TD>
+<TD>AKRD</TD>
+</TR>
+<TR>
+<TD>ALAI           </TD>
+<TD>ALAI</TD>
+</TR>
+<TR>
+<TD>ALAMANDA       </TD>
+<TD>ALM </TD>
+</TR>
+<TR>
+<TD>ALAMNAGAR      </TD>
+<TD>AMG </TD>
+</TR>
+<TR>
+<TD>ALAMPUR        </TD>
+<TD>ALMR</TD>
+</TR>
+<TR>
+<TD>ALAMPUR ROAD   </TD>
+<TD>ALPR</TD>
+</TR>
+<TR>
+<TD>ALANDI         </TD>
+<TD>ALN </TD>
+</TR>
+<TR>
+<TD>ALER           </TD>
+<TD>ALER</TD>
+</TR>
+<TR>
+<TD>ALGAWAN        </TD>
+<TD>AIG </TD>
+</TR>
+<TR>
+<TD>ALIA BADA      </TD>
+<TD>ALB </TD>
+</TR>
+<TR>
+<TD>ALIGANJ        </TD>
+<TD>ALJ </TD>
+</TR>
+<TR>
+<TD>ALIGARH JN     </TD>
+<TD>ALJN</TD>
+</TR>
+<TR>
+<TD>ALIPUR DUAR    </TD>
+<TD>APD </TD>
+</TR>
+<TR>
+<TD>ALIPUR DUAR JN </TD>
+<TD>APDJ</TD>
+</TR>
+<TR>
+<TD>ALIYABAD       </TD>
+<TD>AYB </TD>
+</TR>
+<TR>
+<TD>ALLAHABAD CITY </TD>
+<TD>ALY </TD>
+</TR>
+<TR>
+<TD>ALLAHABAD JN   </TD>
+<TD>ALD </TD>
+</TR>
+<TR>
+<TD>ALLEPPEY       </TD>
+<TD>ALLP</TD>
+</TR>
+<TR>
+<TD>ALLURU ROAD    </TD>
+<TD>AXR </TD>
+</TR>
+<TR>
+<TD>ALMATTI        </TD>
+<TD>LMT </TD>
+</TR>
+<TR>
+<TD>ALNAVAR JN     </TD>
+<TD>LWR </TD>
+</TR>
+<TR>
+<TD>ALNIYA         </TD>
+<TD>ALNI</TD>
+</TR>
+<TR>
+<TD>ALUABARI ROAD  </TD>
+<TD>AUB </TD>
+</TR>
+<TR>
+<TD>ALUVA          </TD>
+<TD>AWY </TD>
+</TR>
+<TR>
+<TD>ALWAL          </TD>
+<TD>ALW </TD>
+</TR>
+<TR>
+<TD>ALWAR          </TD>
+<TD>AWR </TD>
+</TR>
+<TR>
+<TD>ALWAR TIRUNAGRI</TD>
+<TD>AWT </TD>
+</TR>
+<TR>
+<TD>AMAGURA        </TD>
+<TD>AGZ </TD>
+</TR>
+<TR>
+<TD>ALNER        </TD>
+<TD>AN  </TD>
+</TR>
+<TR>
+<TD>AMALSAD        </TD>
+<TD>AML </TD>
+</TR>
+<TR>
+<TD>AMAN VADI      </TD>
+<TD>AMW </TD>
+</TR>
+<TR>
+<TD>AMARDA ROAD    </TD>
+<TD>ARD </TD>
+</TR>
+<TR>
+<TD>AMARGARH       </TD>
+<TD>AGR </TD>
+</TR>
+<TR>
+<TD>AMARGOL        </TD>
+<TD>AGL </TD>
+</TR>
+<TR>
+<TD>AMARPUR JORASI </TD>
+<TD>APJ </TD>
+</TR>
+<TR>
+<TD>AMARPURA       </TD>
+<TD>APA </TD>
+</TR>
+<TR>
+<TD>AMARPURA RATHAN</TD>
+<TD>AMPR</TD>
+</TR>
+<TR>
+<TD>AMARSAR        </TD>
+<TD>AXA </TD>
+</TR>
+<TR>
+<TD>AMAUSI         </TD>
+<TD>AMS </TD>
+</TR>
+<TR>
+<TD>AMB  ANDAURA   </TD>
+<TD>AADR</TD>
+</TR>
+<TR>
+<TD>AMBAGAON       </TD>
+<TD>AGB </TD>
+</TR>
+<TR>
+<TD>AMBALA CANT JN </TD>
+<TD>UMB </TD>
+</TR>
+<TR>
+<TD>AMBALA CITY    </TD>
+<TD>UBC </TD>
+</TR>
+<TR>
+<TD>AMBALAPUZHA    </TD>
+<TD>AMPA</TD>
+</TR>
+<TR>
+<TD>AMBALE         </TD>
+<TD>ABLE</TD>
+</TR>
+<TR>
+<TD>AMBARI FALAKATA</TD>
+<TD>ABFC</TD>
+</TR>
+<TR>
+<TD>AMBARNATH      </TD>
+<TD>ABH </TD>
+</TR>
+<TR>
+<TD>AMBASA         </TD>
+<TD>ABSA</TD>
+</TR>
+<TR>
+<TD>AMBASAMUDRAM   </TD>
+<TD>ASD </TD>
+</TR>
+<TR>
+<TD>AMBATURAI      </TD>
+<TD>ABI </TD>
+</TR>
+<TR>
+<TD>AMBIKA KALNA   </TD>
+<TD>ABKA</TD>
+</TR>
+<TR>
+<TD>AMBIKA ROHINA  </TD>
+<TD>AMBR</TD>
+</TR>
+<TR>
+<TD>AMBIKAPUR      </TD>
+<TD>ABKP</TD>
+</TR>
+<TR>
+<TD>AMBLI ROAD     </TD>
+<TD>ABD </TD>
+</TR>
+<TR>
+<TD>AMBLIYASAN     </TD>
+<TD>UMN </TD>
+</TR>
+<TR>
+<TD>AMBODALA       </TD>
+<TD>AMB </TD>
+</TR>
+<TR>
+<TD>AMBUR          </TD>
+<TD>AB  </TD>
+</TR>
+<TR>
+<TD>AMDARA         </TD>
+<TD>UDR </TD>
+</TR>
+<TR>
+<TD>AMETHI         </TD>
+<TD>AME </TD>
+</TR>
+<TR>
+<TD>AMGAON         </TD>
+<TD>AGN </TD>
+</TR>
+<TR>
+<TD>AMGURI         </TD>
+<TD>AGI </TD>
+</TR>
+<TR>
+<TD>AMLA JN        </TD>
+<TD>AMLA</TD>
+</TR>
+<TR>
+<TD>AMLAI          </TD>
+<TD>AAL </TD>
+</TR>
+<TR>
+<TD>AMLAKHURD      </TD>
+<TD>AMX </TD>
+</TR>
+<TR>
+<TD>AMLI           </TD>
+<TD>AMLI</TD>
+</TR>
+<TR>
+<TD>AMMANABROLU    </TD>
+<TD>ANB </TD>
+</TR>
+<TR>
+<TD>AMMASANDRA     </TD>
+<TD>AMSA</TD>
+</TR>
+<TR>
+<TD>AMMUGUDA       </TD>
+<TD>AMQ </TD>
+</TR>
+<TR>
+<TD>AMONI          </TD>
+<TD>AONI</TD>
+</TR>
+<TR>
+<TD>AMRAVATI       </TD>
+<TD>AMI </TD>
+</TR>
+<TR>
+<TD>AMRELI         </TD>
+<TD>AE  </TD>
+</TR>
+<TR>
+<TD>AMRITAPURA     </TD>
+<TD>AMC </TD>
+</TR>
+<TR>
+<TD>AMRITSAR JN    </TD>
+<TD>ASR </TD>
+</TR>
+<TR>
+<TD>AMRITVEL       </TD>
+<TD>AVL </TD>
+</TR>
+<TR>
+<TD>AMROHA         </TD>
+<TD>AMRO</TD>
+</TR>
+<TR>
+<TD>ANAKAPALLE     </TD>
+<TD>AKP </TD>
+</TR>
+<TR>
+<TD>ANAND JN       </TD>
+<TD>ANND</TD>
+</TR>
+<TR>
+<TD>ANAND NAGAR    </TD>
+<TD>ANDN</TD>
+</TR>
+<TR>
+<TD>ANAND VIHAR    </TD>
+<TD>ANVR</TD>
+</TR>
+<TR>
+<TD>ANAND VIHAR TRM</TD>
+<TD>ANVT</TD>
+</TR>
+<TR>
+<TD>ANANDAPURAM    </TD>
+<TD>ANF </TD>
+</TR>
+<TR>
+<TD>ANANDPUR SAHIB </TD>
+<TD>ANSB</TD>
+</TR>
+<TR>
+<TD>ANANTAPUR      </TD>
+<TD>ATP </TD>
+</TR>
+<TR>
+<TD>ANANTARAJUPET  </TD>
+<TD>ANE </TD>
+</TR>
+<TR>
+<TD>ANANTNAG       </TD>
+<TD>ANT </TD>
+</TR>
+<TR>
+<TD>ANAPARTI       </TD>
+<TD>APT </TD>
+</TR>
+<TR>
+<TD>ANARA          </TD>
+<TD>ANR </TD>
+</TR>
+<TR>
+<TD>ANAS           </TD>
+<TD>ANAS</TD>
+</TR>
+<TR>
+<TD>ANAVARDIKHANPET</TD>
+<TD>AVN </TD>
+</TR>
+<TR>
+<TD>ANCHELI        </TD>
+<TD>ACL </TD>
+</TR>
+<TR>
+<TD>ANDAL JN       </TD>
+<TD>UDL </TD>
+</TR>
+<TR>
+<TD>ANDHERI        </TD>
+<TD>ADH </TD>
+</TR>
+<TR>
+<TD>ANDUL          </TD>
+<TD>ADL </TD>
+</TR>
+<TR>
+<TD>ANGADIPPURAM   </TD>
+<TD>AAM </TD>
+</TR>
+<TR>
+<TD>ANGALAKUDURU   </TD>
+<TD>AKU </TD>
+</TR>
+<TR>
+<TD>ANGAMALI       </TD>
+<TD>AFK </TD>
+</TR>
+<TR>
+<TD>ANGAR          </TD>
+<TD>AAG </TD>
+</TR>
+<TR>
+<TD>ANGUL          </TD>
+<TD>ANGL</TD>
+</TR>
+<TR>
+<TD>ANJANI         </TD>
+<TD>ANO </TD>
+</TR>
+<TR>
+<TD>ANJAR          </TD>
+<TD>AJE </TD>
+</TR>
+<TR>
+<TD>ANJHI SHAHABAD </TD>
+<TD>AJI </TD>
+</TR>
+<TR>
+<TD>ANK MMR DIRECT </TD>
+<TD>ANKX</TD>
+</TR>
+<TR>
+<TD>ANKAI          </TD>
+<TD>ANK </TD>
+</TR>
+<TR>
+<TD>ANKLESHWAR JN  </TD>
+<TD>AKV </TD>
+</TR>
+<TR>
+<TD>ANKOLA         </TD>
+<TD>ANKL</TD>
+</TR>
+<TR>
+<TD>ANKORAH AKORHA </TD>
+<TD>ANH </TD>
+</TR>
+<TR>
+<TD>ANNAVARAM      </TD>
+<TD>ANV </TD>
+</TR>
+<TR>
+<TD>ANNIGERI       </TD>
+<TD>NGR </TD>
+</TR>
+<TR>
+<TD>ANPARA         </TD>
+<TD>ANPR</TD>
+</TR>
+<TR>
+<TD>ANTAH          </TD>
+<TD>ATH </TD>
+</TR>
+<TR>
+<TD>ANTU           </TD>
+<TD>ANTU</TD>
+</TR>
+<TR>
+<TD>ANUGRAHA N ROAD</TD>
+<TD>AUBR</TD>
+</TR>
+<TR>
+<TD>ANUPGARH       </TD>
+<TD>APH </TD>
+</TR>
+<TR>
+<TD>ANUPPUR JN     </TD>
+<TD>APR </TD>
+</TR>
+<TR>
+<TD>ANUPSHAHR      </TD>
+<TD>AUS </TD>
+</TR>
+<TR>
+<TD>AONLA          </TD>
+<TD>AO  </TD>
+</TR>
+<TR>
+<TD>APPIKATLA      </TD>
+<TD>APL </TD>
+</TR>
+<TR>
+<TD>APTA           </TD>
+<TD>APTA</TD>
+</TR>
+<TR>
+<TD>ARA            </TD>
+<TD>ARA </TD>
+</TR>
+<TR>
+<TD>ARAG           </TD>
+<TD>ARAG</TD>
+</TR>
+<TR>
+<TD>ARAKKONAM      </TD>
+<TD>AJJ </TD>
+</TR>
+<TR>
+<TD>ARAKKU         </TD>
+<TD>ARK </TD>
+</TR>
+<TR>
+<TD>ARALVAYMOZHI   </TD>
+<TD>AAY </TD>
+</TR>
+<TR>
+<TD>ARAND          </TD>
+<TD>ARN </TD>
+</TR>
+<TR>
+<TD>ARANG MAHANADI </TD>
+<TD>ANMD</TD>
+</TR>
+<TR>
+<TD>ARANTANGI      </TD>
+<TD>ATQ </TD>
+</TR>
+<TR>
+<TD>ARARIYA        </TD>
+<TD>ARR </TD>
+</TR>
+<TR>
+<TD>ARARIYA COURT  </TD>
+<TD>ARQ </TD>
+</TR>
+<TR>
+<TD>ARAVALI ROAD   </TD>
+<TD>AVRD</TD>
+</TR>
+<TR>
+<TD>ARAVALLI       </TD>
+<TD>AVLI</TD>
+</TR>
+<TR>
+<TD>ARAVANKADU     </TD>
+<TD>AVK </TD>
+</TR>
+<TR>
+<TD>AREPALLI HALT  </TD>
+<TD>ARPL</TD>
+</TR>
+<TR>
+<TD>ARIGADA        </TD>
+<TD>ARGD</TD>
+</TR>
+<TR>
+<TD>ARIYALUR       </TD>
+<TD>ALU </TD>
+</TR>
+<TR>
+<TD>ARJANSAR       </TD>
+<TD>AS  </TD>
+</TR>
+<TR>
+<TD>ARJUNI         </TD>
+<TD>AJU </TD>
+</TR>
+<TR>
+<TD>ARNETHA        </TD>
+<TD>ARE </TD>
+</TR>
+<TR>
+<TD>ARNI ROAD      </TD>
+<TD>ARV </TD>
+</TR>
+<TR>
+<TD>ARNIA          </TD>
+<TD>ARNA</TD>
+</TR>
+<TR>
+<TD>ARSIKERE JN    </TD>
+<TD>ASK </TD>
+</TR>
+<TR>
+<TD>ARUMUGANERI    </TD>
+<TD>ANY </TD>
+</TR>
+<TR>
+<TD>ARUNACHAL      </TD>
+<TD>ARCL</TD>
+</TR>
+<TR>
+<TD>ARUPPUKKOTTAI  </TD>
+<TD>APK </TD>
+</TR>
+<TR>
+<TD>ARVI           </TD>
+<TD>ARVI</TD>
+</TR>
+<TR>
+<TD>ARYANKAVU      </TD>
+<TD>AYV </TD>
+</TR>
+<TR>
+<TD>ASAFPUR        </TD>
+<TD>AFR </TD>
+</TR>
+<TR>
+<TD>ASALPUR JOBNER </TD>
+<TD>JOB </TD>
+</TR>
+<TR>
+<TD>ASANSOL JN     </TD>
+<TD>ASN </TD>
+</TR>
+<TR>
+<TD>ASAOTI         </TD>
+<TD>AST </TD>
+</TR>
+<TR>
+<TD>ASARVA JN      </TD>
+<TD>ASV </TD>
+</TR>
+<TR>
+<TD>ASHAPURA GOMAT </TD>
+<TD>AQG </TD>
+</TR>
+<TR>
+<TD>ASHOK NAGAR    </TD>
+<TD>ASKN</TD>
+</TR>
+<TR>
+<TD>ASHOKAPURAM    </TD>
+<TD>AP  </TD>
+</TR>
+<TR>
+<TD>ASIFABAD ROAD  </TD>
+<TD>ASAF</TD>
+</TR>
+<TR>
+<TD>ASLANA         </TD>
+<TD>ANA </TD>
+</TR>
+<TR>
+<TD>ASLAODA        </TD>
+<TD>ASL </TD>
+</TR>
+<TR>
+<TD>ASNOTI         </TD>
+<TD>AT  </TD>
+</TR>
+<TR>
+<TD>ASOKHAR        </TD>
+<TD>AXK </TD>
+</TR>
+<TR>
+<TD>ASRANADA       </TD>
+<TD>AAS </TD>
+</TR>
+<TR>
+<TD>ASWAPURAM      </TD>
+<TD>AWM </TD>
+</TR>
+<TR>
+<TD>ATARI          </TD>
+<TD>ATT </TD>
+</TR>
+<TR>
+<TD>ATARRA         </TD>
+<TD>ATE </TD>
+</TR>
+<TR>
+<TD>ATELI          </TD>
+<TD>AEL </TD>
+</TR>
+<TR>
+<TD>ATHMAL GOLA    </TD>
+<TD>ATL </TD>
+</TR>
+<TR>
+<TD>ATIRAMPATTINAM </TD>
+<TD>AMM </TD>
+</TR>
+<TR>
+<TD>ATRAMPUR       </TD>
+<TD>ARP </TD>
+</TR>
+<TR>
+<TD>ATRU           </TD>
+<TD>ATRU</TD>
+</TR>
+<TR>
+<TD>ATTABIRA       </TD>
+<TD>ATS </TD>
+</TR>
+<TR>
+<TD>ATTAR          </TD>
+<TD>ATR </TD>
+</TR>
+<TR>
+<TD>ATTILI         </TD>
+<TD>AL  </TD>
+</TR>
+<TR>
+<TD>ATTUR          </TD>
+<TD>ATU </TD>
+</TR>
+<TR>
+<TD>ATUL           </TD>
+<TD>ATUL</TD>
+</TR>
+<TR>
+<TD>AULENDA        </TD>
+<TD>AED </TD>
+</TR>
+<TR>
+<TD>AUNG           </TD>
+<TD>AUNG</TD>
+</TR>
+<TR>
+<TD>AUNRIHAR JN    </TD>
+<TD>ARJ </TD>
+</TR>
+<TR>
+<TD>AURANGABAD     </TD>
+<TD>AWB </TD>
+</TR>
+<TR>
+<TD>AUSA ROAD      </TD>
+<TD>OSA </TD>
+</TR>
+<TR>
+<TD>AUVANESWSAREM  </TD>
+<TD>AVS </TD>
+</TR>
+<TR>
+<TD>AUWA           </TD>
+<TD>AUWA</TD>
+</TR>
+<TR>
+<TD>AVADI          </TD>
+<TD>AVD </TD>
+</TR>
+<TR>
+<TD>AWANTIPURA     </TD>
+<TD>ATPA</TD>
+</TR>
+<TR>
+<TD>AWATARNAGAR    </TD>
+<TD>ATNR</TD>
+</TR>
+<TR>
+<TD>AYODHYA        </TD>
+<TD>AY  </TD>
+</TR>
+<TR>
+<TD>AYODHYAPATTANAM</TD>
+<TD>APN </TD>
+</TR>
+<TR>
+<TD>AZAMGARH       </TD>
+<TD>AMH </TD>
+</TR>
+<TR>
+<TD>AZAMNAGAR ROAD </TD>
+<TD>AZR </TD>
+</TR>
+<TR>
+<TD>AZIMGANJ CITY  </TD>
+<TD>ACLE</TD>
+</TR>
+<TR>
+<TD>AZIMGANJ JN    </TD>
+<TD>AZ  </TD>
+</TR>
+</TABLE></td></tr>
+<TR><TD>&nbsp;</td></tr>
+</TABLE></td>
+<td align="left" valign="top" class="pad_self"><table width="100%" border="0" cellspacing="2" cellpadding="2">
+<tr><td align="right" valign="top">&nbsp;</td>
+</tr></table></td>
+</tr></table></td>
+<td align="left" valign="top" class="text_rail_right">&nbsp;</td>
+</tr>
+<tr>
+<td width="10" align="left" valign="top"><img src="http://www.indianrail.gov.in/main_text_left_bottom2.gif" alt="" width="8"/></td>
+<td width="100%" align="left" valign="top" class="text_rail_bottom"><img src="http://www.indianrail.gov.in/blank.gif" alt="" width="1" height="8" /></td>
+<td width="10" align="right" valign="top"> <img src="http://www.indianrail.gov.in/main_text_right_bottom2.gif" alt="" width="8" /></td>
+</tr></table><body>
+<FONT size=1>No. of Queries :  0577761184
+, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Server : YAMUNA 
+, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dated : 16-02-2015 Time:04:09:20 Hrs</font></td></tr></table></td></tr> </table></td></tr></table></td></tr></table></td></tr><tr><td align="left"valign="top"><table width="970" border="0" cellspacing="0" cellpadding="0"><tr> <td width="9" align="left" valign="top"><img src="http://www.indianrail.gov.in/images/footer_upper_lft.gif" alt="" width="9" height="49" /></td><td width="100%%" align="left" valign="top" class="footer_upper"><table width="100%%" border="0" cellspacing="1" cellpadding="0"><tr><td align="center" valign="top" class="main_footer_upper"><a href="../index.html"  onclick="resetButton()">Home </a> | <a href="http://www.indianrailways.gov.in/railwayboard/" target="_blank">Ministry of Railways</a> |      <a href="../know_Station_Code.html" onclick="resetButton()">Trains between Stations</a> | <a href="../booking_Location.html" onclick="resetButton()">Booking Locations</a> | <a href="http://www.cris.org.in/" target="_blank">CRIS</a> | <a href="../about_Concert.html"  onclick="resetButton()">CONCERT</a> | <a href="../faq.html"  onclick="resetButton()">FAQ</a> | <a href="../sitemap.html"  onclick="resetButton()">Sitemap</a> | <a href="http://www.trainenquiry.com/Feedback.aspx" target="_blank" onclick="resetButton()">Feedback</a></td></tr><tr><td align="center"valign="top" class="copy_footer" style="padding-top:3px;"><span class="main_footer_copy"><a href="../copyright.html"  onclick="resetButton()">Copyright</a></span> &copy; 2010, Centre For Railway Information Systems, Designed and Hosted by CRIS | <span class="main_footer_copy"><a href="../disclaimer.html" onclick="resetButton()">Disclaimer</a></span><br />Best viewed at 1024 x 768 resolution with Internet Explorer 5.0 or Mozila Firefox 3.5 and higher</td></tr> </table></td><td width="9" align="right" valign="top"><img src="http://www.indianrail.gov.in/images/footer_upper_rgt.gif" alt="" width="9" height="49" /></td></tr></table></td></tr></table></td></tr></table><script type="text/javascript">anylinkmenu.init("menuanchorclass")</script>
+</BODY>
+</HTML>
